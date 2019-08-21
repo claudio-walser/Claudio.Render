@@ -1,8 +1,8 @@
 <?php
-namespace Neos\Demo\Domain\Model;
+namespace Claudio\Render\Domain\Model;
 
 /*
- * This file is part of the Neos.Demo package.
+ * This file is part of the Claudio.Render package.
  *
  * (c) Contributors of the Neos Project - www.neos.io
  *

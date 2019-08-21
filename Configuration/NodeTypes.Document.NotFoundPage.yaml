@@ -1,9 +1,9 @@
 ##
 # A new Document NodeType "NotFoundPage"
 #
-'Neos.Demo:Document.NotFoundPage':
+'Claudio.Render:Document.NotFoundPage':
   superTypes:
-    'Neos.Demo:Document.Page': true
+    'Claudio.Render:Document.Page': true
   ui:
     label: i18n
     icon: 'times'

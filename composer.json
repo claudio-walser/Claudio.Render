@@ -1,7 +1,7 @@
 {
-    "name": "neos/demo",
+    "name": "claudio/render",
     "type": "neos-site",
-    "description": "Site package for the Neos Demo Site",
+    "description": "Site package for pilzverein-zo.ch",
     "license": [
         "GPL-3.0-or-later"
     ],

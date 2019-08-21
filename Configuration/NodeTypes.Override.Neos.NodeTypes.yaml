@@ -1,6 +1,6 @@
 ##
 # Declare nodetypes from Neos.NodeTypes abstract that are replaced
-# in the Neos.Demo package namespace
+# in the Claudio.Render package namespace
 #
 'Neos.NodeTypes:Page':
   abstract: true

@@ -1,4 +1,4 @@
-prototype(Neos.Demo:Helper.StyleTag) < prototype(Neos.Fusion:Component) {
+prototype(Claudio.Render:Helper.StyleTag) < prototype(Neos.Fusion:Component) {
     media = null
     path = null
 

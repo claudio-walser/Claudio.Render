@@ -1,7 +1,7 @@
 ##
 # "YouTube" element
 #
-prototype(Neos.Demo:Content.YouTube) < prototype(Neos.Neos:ContentComponent) {
+prototype(Claudio.Render:Content.YouTube) < prototype(Neos.Neos:ContentComponent) {
     videoId = ${q(node).property('video')}
     width = ${q(node).property('width')}
     height = ${q(node).property('height')}

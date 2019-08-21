@@ -5,7 +5,7 @@ use Doctrine\DBAL\Migrations\AbstractMigration;
 use Doctrine\DBAL\Schema\Schema;
 
 /**
- * Rename from Neos.NeosDemoTypo3Org to Neos.Demo
+ * Rename from Neos.NeosDemoTypo3Org to Claudio.Render
  */
 class Version20160427183540 extends AbstractMigration
 {
@@ -19,7 +19,7 @@ class Version20160427183540 extends AbstractMigration
 
         $this->addSql("ALTER TABLE typo3_neosdemotypo3org_domain_model_registration RENAME TO neos_demo_domain_model_registration");
         if ($this->sm->tablesExist(['typo3_neos_domain_model_site'])) {
-            $this->addSql("UPDATE typo3_neos_domain_model_site SET nodename = 'neosdemo', siteresourcespackagekey = 'Neos.Demo' WHERE nodename = 'neosdemotypo3org'");
+            $this->addSql("UPDATE typo3_neos_domain_model_site SET nodename = 'neosdemo', siteresourcespackagekey = 'Claudio.Render' WHERE nodename = 'neosdemotypo3org'");
             }
     }
 

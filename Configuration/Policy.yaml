@@ -1,17 +1,17 @@
 #                                                                        #
-# Security policy for the Neos.Demo package                 #
+# Security policy for the Claudio.Render package                 #
 #                                                                        #
 
 privilegeTargets:
   'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
 
     Neos_Demo_RegistrationAccess:
-      matcher: method(Neos\Demo\Controller\RegistrationController->(index|newAccount|createAccount|createTemporaryAccount)Action())
+      matcher: method(Claudio\Render\Controller\RegistrationController->(index|newAccount|createAccount|createTemporaryAccount)Action())
     Neos_Demo_FlickrAccess:
-      matcher: method(Neos\Demo\Controller\FlickrController->(tagStream|userStream)Action())
+      matcher: method(Claudio\Render\Controller\FlickrController->(tagStream|userStream)Action())
 
   'Neos\ContentRepository\Security\Authorization\Privilege\Node\ReadNodePrivilege':
-    'Neos.Demo:MembersArea':
+    'Claudio.Render:MembersArea':
       # fee74676-c42f-89da-208e-1741a66525d4 is the node identifier of the "member-area" node, by default located at "/sites/neosdemo/member-area"
       matcher: 'isDescendantNodeOf("fee74676-c42f-89da-208e-1741a66525d4")'
 
@@ -31,12 +31,12 @@ roles:
     privileges:
       -
         # Grant "frontend users" to access the "Member area"
-        privilegeTarget: 'Neos.Demo:MembersArea'
+        privilegeTarget: 'Claudio.Render:MembersArea'
         permission: GRANT
 
   'Neos.Neos:Editor':
     privileges:
       -
         # Grant "backend users" to access the "Member area" - Otherwise those pages would be hidden in the backend, too!
-        privilegeTarget: 'Neos.Demo:MembersArea'
+        privilegeTarget: 'Claudio.Render:MembersArea'
         permission: GRANT

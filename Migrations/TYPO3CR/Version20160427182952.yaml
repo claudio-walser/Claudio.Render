@@ -1,5 +1,5 @@
 up:
-  comments: 'Rename from Neos.NeosDemoTypo3Org to Neos.Demo'
+  comments: 'Rename from Neos.NeosDemoTypo3Org to Claudio.Render'
   migration:
     -
       filters:
@@ -11,7 +11,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Registration'
+            newType: 'Claudio.Render:Registration'
     -
       filters:
         -
@@ -22,7 +22,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:YouTube'
+            newType: 'Claudio.Render:YouTube'
     -
       filters:
         -
@@ -36,14 +36,14 @@ up:
             newName: 'neosdemo'
 
 down:
-  comments: 'Rename from Neos.Demo to Neos.NeosDemoTypo3Org'
+  comments: 'Rename from Claudio.Render to Neos.NeosDemoTypo3Org'
   migration:
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Registration'
+            nodeType: 'Claudio.Render:Registration'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -54,7 +54,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:YouTube'
+            nodeType: 'Claudio.Render:YouTube'
       transformations:
         -
           type: 'ChangeNodeType'

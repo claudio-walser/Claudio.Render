@@ -1,16 +1,16 @@
 /**
  *  Special landing page layout with less navigation components
  */
-prototype(Neos.Demo:Document.LandingPage) < prototype(Neos.Fusion:Component) {
-    mainMenu = Neos.Demo:Document.Fragment.Menu.Main
-    secondaryMenu = Neos.Demo:Document.Fragment.Menu.Secondary
-    languageMenu = Neos.Demo:Document.Fragment.Menu.Language
-    metaMenu = Neos.Demo:Document.Fragment.Menu.Meta
-    breadcrumbMenu = Neos.Demo:Document.Fragment.Menu.Breadcrumb
+prototype(Claudio.Render:Document.LandingPage) < prototype(Neos.Fusion:Component) {
+    mainMenu = Claudio.Render:Document.Fragment.Menu.Main
+    secondaryMenu = Claudio.Render:Document.Fragment.Menu.Secondary
+    languageMenu = Claudio.Render:Document.Fragment.Menu.Language
+    metaMenu = Claudio.Render:Document.Fragment.Menu.Meta
+    breadcrumbMenu = Claudio.Render:Document.Fragment.Menu.Breadcrumb
 
-    teaserContent = Neos.Demo:Document.Fragment.Content.Teaser
-    mainContent = Neos.Demo:Document.Fragment.Content.Main
-    footerContent = Neos.Demo:Document.Fragment.Content.Footer
+    teaserContent = Claudio.Render:Document.Fragment.Content.Teaser
+    mainContent = Claudio.Render:Document.Fragment.Content.Main
+    footerContent = Claudio.Render:Document.Fragment.Content.Footer
 
 
     imageUri = Neos.Neos:ImageUri {
@@ -22,7 +22,7 @@ prototype(Neos.Demo:Document.LandingPage) < prototype(Neos.Fusion:Component) {
 
     imageTitleText = ${q(node).property('imageTitleText')}
 
-    renderer = Neos.Demo:Document.Base {
+    renderer = Claudio.Render:Document.Base {
         bodyClass = ${q(node).parents().count() >= 1 && q(node).children('[instanceof Neos.Neos:Document]').filter('[_hiddenInIndex=false]').count() > 0 ? 'has-subpages' : null}
 
         body >

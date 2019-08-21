@@ -1,7 +1,7 @@
 ##
 # A simple "Flickr" plugin that demonstrates the "PluginViews"-feature
 #
-'Neos.Demo:Content.Flickr':
+'Claudio.Render:Content.Flickr':
   superTypes:
     'Neos.Neos:Plugin': true
   ui:
@@ -17,9 +17,9 @@
   options:
     'pluginViews':
       'UserFeed':
-        label: 'Neos.Demo:NodeTypes.Content.Flickr:options.pluginViews.userFeed'
+        label: 'Claudio.Render:NodeTypes.Content.Flickr:options.pluginViews.userFeed'
         controllerActions:
-          'Neos\Demo\Controller\FlickrController': ['userStream']
+          'Claudio\Render\Controller\FlickrController': ['userStream']
   properties:
     'tags':
       type: string

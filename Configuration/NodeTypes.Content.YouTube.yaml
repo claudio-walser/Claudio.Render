@@ -1,11 +1,11 @@
 ##
 # A "Youtube" content element
 #
-'Neos.Demo:Content.YouTube':
+'Claudio.Render:Content.YouTube':
   superTypes:
     'Neos.Neos:Content': true
-    'Neos.Demo:Constraint.Content.Carousel': true
-    'Neos.Demo:Constraint.Content.Column': true
+    'Claudio.Render:Constraint.Content.Carousel': true
+    'Claudio.Render:Constraint.Content.Column': true
   ui:
     label: YouTube
     icon: 'icon-youtube'

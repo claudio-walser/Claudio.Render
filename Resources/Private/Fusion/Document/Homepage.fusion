@@ -1,4 +1,4 @@
 /**
- * Homepage rendering for the Neos.Demo website
+ * Homepage rendering for the Claudio.Render website
  */
-prototype(Neos.Demo:Document.Homepage) < prototype(Neos.Demo:Document.LandingPage)
+prototype(Claudio.Render:Document.Homepage) < prototype(Claudio.Render:Document.LandingPage)

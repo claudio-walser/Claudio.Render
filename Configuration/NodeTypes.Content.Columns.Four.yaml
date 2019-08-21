@@ -1,4 +1,4 @@
-'Neos.Demo:Content.Columns.Four':
+'Claudio.Render:Content.Columns.Four':
   superTypes:
     'Neos.Neos:Content': true
   ui:
@@ -8,10 +8,10 @@
     position: 400
   childNodes:
     column0:
-      type: 'Neos.Demo:Collection.Content.Column'
+      type: 'Claudio.Render:Collection.Content.Column'
     column1:
-      type: 'Neos.Demo:Collection.Content.Column'
+      type: 'Claudio.Render:Collection.Content.Column'
     column2:
-      type: 'Neos.Demo:Collection.Content.Column'
+      type: 'Claudio.Render:Collection.Content.Column'
     column3:
-      type: 'Neos.Demo:Collection.Content.Column'
+      type: 'Claudio.Render:Collection.Content.Column'

@@ -1,12 +1,12 @@
 ##
 # A "Carousel" content element that renders "Image" child nodes into a JavaScript based slideshow
 #
-'Neos.Demo:Content.Carousel':
+'Claudio.Render:Content.Carousel':
   superTypes:
     'Neos.Neos:Content': true
   childNodes:
     carouselitems:
-      type: 'Neos.Demo:Collection.Content.Carousel'
+      type: 'Claudio.Render:Collection.Content.Carousel'
   ui:
     label: i18n
     group: 'plugins'
@@ -23,6 +23,6 @@
         * YouTube
         * References
 
-'Neos.Demo:Content.Carousel.Collection':
+'Claudio.Render:Content.Carousel.Collection':
   superTypes:
     'Neos.Neos:Content': true

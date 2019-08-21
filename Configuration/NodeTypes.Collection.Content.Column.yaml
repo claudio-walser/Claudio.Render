@@ -1,13 +1,13 @@
 ##
 # A collection of contents that can be placed in a column
 #
-'Neos.Demo:Collection.Content.Column':
+'Claudio.Render:Collection.Content.Column':
   superTypes:
     Neos.Neos:ContentCollection: true
   constraints:
     nodeTypes:
       '*': false
-      'Neos.Demo:Constraint.Content.Column': true
+      'Claudio.Render:Constraint.Content.Column': true
 
 ##
 # Constraint-supertype that makes contents available in columns
@@ -15,5 +15,5 @@
 # this allows to define the usage on the content nodetypes and
 # is recommended if a collection contains many different types
 #
-'Neos.Demo:Constraint.Content.Column':
+'Claudio.Render:Constraint.Content.Column':
   abstract: true

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <site name="Neos Demo Site" state="1" siteResourcesPackageKey="Neos.Demo" siteNodeName="neosdemo">
+ <site name="Neos Demo Site" state="1" siteResourcesPackageKey="Claudio.Render" siteNodeName="neosdemo">
   <nodes formatVersion="2.0">
    <node identifier="995c9174-ddd6-4d5c-cfc0-1ffc82184677" nodeName="neosdemo">
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="13" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="13" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>nl</language>
      </dimensions>
@@ -18,7 +18,7 @@
       <imageTitleText __type="string">Photo by Mr. Coffee</imageTitleText>
      </properties>
     </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="14" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="14" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>da</language>
      </dimensions>
@@ -33,7 +33,7 @@
       <imageTitleText __type="string">Photo by Mr. Coffee</imageTitleText>
      </properties>
     </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="12" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="12" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>fr</language>
      </dimensions>
@@ -48,7 +48,7 @@
       <imageTitleText __type="string">Photo by Mr. Coffee</imageTitleText>
      </properties>
     </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="53" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="53" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>en_US</language>
      </dimensions>
@@ -62,7 +62,7 @@
       <image __type="object" __identifier="92715deb-93ab-46d5-b107-892e43cdf8cb" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;92715deb-93ab-46d5-b107-892e43cdf8cb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;7831a651-3faf-4a18-9089-e27f50f11e38&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;From Neos with love&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Tea Plantage.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4e86dc112ae8ac02bca68ba064212271d1c6baaf&quot;,&quot;hash&quot;:&quot;4e86dc112ae8ac02bca68ba064212271d1c6baaf&quot;,&quot;__identity&quot;:&quot;e4a30db1-5a1a-4c5c-84fc-1d166e3abcce&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:1199,&quot;position&quot;:10,&quot;width&quot;:2400,&quot;x&quot;:0,&quot;y&quot;:163,&quot;__identity&quot;:&quot;a0bd1a5f-cbe5-4726-95c3-e2d3ecba5f7e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
      </properties>
     </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="13" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="13" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>de</language>
      </dimensions>
@@ -77,7 +77,7 @@
       <imageTitleText __type="string">Photo by Mr. Coffee</imageTitleText>
      </properties>
     </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Homepage" version="9" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Homepage" version="9" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>lv</language>
      </dimensions>
@@ -93,7 +93,7 @@
      </properties>
     </variant>
     <node identifier="517ad799-35df-4324-9429-5c75629a8b34" nodeName="download">
-     <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -106,7 +106,7 @@
       </properties>
      </variant>
      <node identifier="91872bb6-86dd-28f9-193d-19293378d758" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -116,7 +116,7 @@
        <properties/>
       </variant>
       <node identifier="0c5d3792-6be5-5733-faa8-49ef9c5c13bb" nodeName="node524d2f806fd1c">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -126,7 +126,7 @@
         <properties/>
        </variant>
        <node identifier="549f7849-b96b-7473-307a-0aaa301904d3" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -136,7 +136,7 @@
          <properties/>
         </variant>
         <node identifier="be9c3007-650c-5372-602e-233b7b294228" nodeName="node524d2f8cddd3d">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -153,7 +153,7 @@
         </node>
        </node>
        <node identifier="208af1da-2311-0eec-37ed-140d5a6ba77d" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -165,7 +165,7 @@
        </node>
       </node>
       <node identifier="3b25cc50-ebac-66ab-7d70-e6a644f9327c" nodeName="untitled">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -179,7 +179,7 @@
       </node>
      </node>
      <node identifier="7fd40325-c5e2-04e0-f79b-e9c2a6e0b1ca" nodeName="teaser">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -191,7 +191,7 @@
      </node>
     </node>
     <node identifier="a3474e1d-dd60-4a84-82b1-18d2f21891a3" nodeName="features">
-     <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -204,7 +204,7 @@
       </properties>
      </variant>
      <node identifier="2bd20ef8-ab75-867a-a3e1-764c82b1552d" nodeName="custom-elements">
-      <variant sortingIndex="700" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="700" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -217,7 +217,7 @@
        </properties>
       </variant>
       <node identifier="5e1afcd4-8925-4469-bc83-cdcfc3ace842" nodeName="main">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -227,7 +227,7 @@
         <properties/>
        </variant>
        <node identifier="5ca7b999-73c3-fd4a-a0f6-61b1fb462615" nodeName="node5270f5b85777b">
-        <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Content.Carousel" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Content.Carousel" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -237,7 +237,7 @@
          <properties/>
         </variant>
         <node identifier="70547ff6-1470-e7a6-03cd-bcb6391be6c7" nodeName="carouselitems">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Carousel" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Carousel" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -247,7 +247,7 @@
           <properties/>
          </variant>
          <node identifier="2e01ea76-c1c6-6313-41cd-d1697081af2f" nodeName="node5270f5d9e1496">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Image" version="12" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Image" version="12" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -262,7 +262,7 @@
           </variant>
          </node>
          <node identifier="7d38b536-a52a-afc2-e2c8-ae04a134c76b" nodeName="node5270f60a66dfb">
-          <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Image" version="12" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Image" version="12" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -279,7 +279,7 @@
         </node>
        </node>
        <node identifier="d12d0ba1-58fc-658a-2ff3-ae0a67f4a436" nodeName="node52a4e9bd7ec4b">
-        <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -289,7 +289,7 @@
          <properties/>
         </variant>
         <node identifier="2953c355-5462-270f-f367-025ba2cc5041" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -299,7 +299,7 @@
           <properties/>
          </variant>
          <node identifier="0f180a1f-a33d-f7ef-be38-e8da0b542bac" nodeName="node524da91461f23">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.YouTube" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.YouTube" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -315,7 +315,7 @@
          </node>
         </node>
         <node identifier="a23e6725-6ff8-0013-4ff1-8c0b32eae0d0" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -325,7 +325,7 @@
           <properties/>
          </variant>
          <node identifier="2dbd9143-ef3a-d76b-dd6f-2597eda93275" nodeName="node52a711059a416">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -341,7 +341,7 @@
         </node>
        </node>
        <node identifier="b122ee6e-d595-c3cf-50a6-c7369e6e5c5b" nodeName="node52a723c19772a">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -354,7 +354,7 @@
         </variant>
        </node>
        <node identifier="2802ebed-6411-34b3-1a50-a15bf544e7f5" nodeName="node52a723ec357b1">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -368,7 +368,7 @@
         </variant>
        </node>
        <node identifier="06d5dff5-1be3-5033-067e-9a348f5eb15c" nodeName="node52a72410eaa31">
-        <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -381,7 +381,7 @@
         </variant>
        </node>
        <node identifier="f998e064-9d6f-8269-df18-cd8468328e2f" nodeName="node52a7252395b7c">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -395,7 +395,7 @@
        </node>
       </node>
       <node identifier="c690118e-1ebb-6579-a7e4-402048924d60" nodeName="teaser">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -407,7 +407,7 @@
       </node>
      </node>
      <node identifier="f0eb464e-4701-d909-7023-34f06056bf7c" nodeName="forms">
-      <variant sortingIndex="900" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="900" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -420,7 +420,7 @@
        </properties>
       </variant>
       <node identifier="14d2acfe-d72f-a61b-b2b8-614158827a99" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -430,7 +430,7 @@
         <properties/>
        </variant>
        <node identifier="eb6d3eb8-e639-45fc-c596-d652153721e1" nodeName="node52a7107ea17ec">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -440,7 +440,7 @@
          <properties/>
         </variant>
         <node identifier="40d21bd7-12d0-9413-ac83-819960d28bc3" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -450,7 +450,7 @@
           <properties/>
          </variant>
          <node identifier="94ac57d7-4d61-1b84-656e-ce776afb8dfb" nodeName="node52a7108d27f1b">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -466,7 +466,7 @@
          </node>
         </node>
         <node identifier="b7e47f43-3591-1e24-8dc4-54fc29feac80" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -491,7 +491,7 @@
         </node>
        </node>
        <node identifier="7642ae1e-9f34-6887-dd77-be556ddc8e61" nodeName="untitled">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -505,7 +505,7 @@
        </node>
       </node>
       <node identifier="e46469d5-6337-b4bb-e211-38ab4ed11c01" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -517,7 +517,7 @@
       </node>
      </node>
      <node identifier="b6788725-56c8-4284-400f-fdb990297cfa" nodeName="frontend-user-login">
-      <variant sortingIndex="950" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="950" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -530,7 +530,7 @@
        </properties>
       </variant>
       <node identifier="d9df0160-8771-77e2-dcb2-c49a19a71c40" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -551,7 +551,7 @@
         </variant>
        </node>
        <node identifier="39609b41-500a-fcc8-c9ef-392e99528119" nodeName="node-5511c8a29528e">
-        <variant sortingIndex="50" workspace="live" nodeType="Neos.Demo:Content.Headline" version="11" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="50" workspace="live" nodeType="Claudio.Render:Content.Headline" version="11" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -564,7 +564,7 @@
         </variant>
        </node>
        <node identifier="a96a1759-3196-33e0-f769-97216b659b0b" nodeName="node-5511c91755625">
-        <variant sortingIndex="75" workspace="live" nodeType="Neos.Demo:Content.Text" version="9" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="75" workspace="live" nodeType="Claudio.Render:Content.Text" version="9" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -591,7 +591,7 @@
        </node>
       </node>
       <node identifier="1559605e-d706-d68f-15cd-27f8d9e28ee3" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -603,7 +603,7 @@
       </node>
      </node>
      <node identifier="14ccf43a-562a-c9f7-2fd1-733e27068524" nodeName="imagetext">
-      <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -616,7 +616,7 @@
        </properties>
       </variant>
       <node identifier="55861d58-c4e5-6121-b7cf-ef9320ebfbb0" nodeName="main">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -626,7 +626,7 @@
         <properties/>
        </variant>
        <node identifier="1bf888a9-b8b5-f718-e160-e4b486867b2a" nodeName="node524c186f12740">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -636,7 +636,7 @@
          <properties/>
         </variant>
         <node identifier="2afdabda-1981-b156-48a5-cdafea692d72" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -646,7 +646,7 @@
           <properties/>
          </variant>
          <node identifier="b5c89d6d-4c3e-fac0-b3d9-4f21a1bc5e22" nodeName="node524c1878dbb26">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -670,7 +670,7 @@
          </node>
         </node>
         <node identifier="6bce95fc-ceff-37cb-e38a-67ed1de81390" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -680,7 +680,7 @@
           <properties/>
          </variant>
          <node identifier="26c92b43-cf7e-f6e8-a329-1f360005127c" nodeName="node524c18b107a6a">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -713,7 +713,7 @@
          </node>
         </node>
         <node identifier="58b9a4a7-03d3-229e-c15d-5485f582c7c1" nodeName="column2">
-         <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -723,7 +723,7 @@
           <properties/>
          </variant>
          <node identifier="9835d866-affc-5d5c-60ae-6eb3594a5ed2" nodeName="node524c18beddbd0">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -744,7 +744,7 @@
         </node>
        </node>
        <node identifier="0e70da10-fc24-6459-19e9-254f76734e1b" nodeName="node524c21d53285a">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -754,7 +754,7 @@
          <properties/>
         </variant>
         <node identifier="6720f7c4-fc5b-4c68-81b0-322d681a9719" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -764,7 +764,7 @@
           <properties/>
          </variant>
          <node identifier="5a085bc7-5c51-39c8-62d8-90d079200f9c" nodeName="node524c21dc90666">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.TextWithImage" version="6" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.TextWithImage" version="6" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -792,7 +792,7 @@
          </node>
         </node>
         <node identifier="e06ae14d-6578-acd7-193c-5162313d79ef" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -802,7 +802,7 @@
           <properties/>
          </variant>
          <node identifier="afe00cb9-4166-c3d0-8ba3-6e9edad2cbe9" nodeName="node524c2887753b8">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.TextWithImage" version="6" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.TextWithImage" version="6" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -829,7 +829,7 @@
         </node>
        </node>
        <node identifier="2dce67ff-620d-b7bd-6521-50f27bdd5a1d" nodeName="node526b9374ec6f2">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -843,7 +843,7 @@
        </node>
       </node>
       <node identifier="5654be55-c89e-d92e-ec37-be8303e39f83" nodeName="teaser">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -853,7 +853,7 @@
         <properties/>
        </variant>
        <node identifier="3b33eb39-188a-a225-a8bc-1cbeaf787ac6" nodeName="node524c185185962">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -868,7 +868,7 @@
       </node>
      </node>
      <node identifier="b29a8d8f-5bbe-975f-b403-350c3a27e3a5" nodeName="main">
-      <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -878,7 +878,7 @@
        <properties/>
       </variant>
       <node identifier="1e1d4039-e5e8-7b16-f9d5-be548320078d" nodeName="node524c37db511d4">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -888,7 +888,7 @@
         <properties/>
        </variant>
        <node identifier="e6ab673b-7676-e7c6-93e1-7d24a6817aaf" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -898,7 +898,7 @@
          <properties/>
         </variant>
         <node identifier="c7a32dbd-5c23-e651-561e-41880f36f9c2" nodeName="node524c389335cf9">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -911,7 +911,7 @@
          </variant>
         </node>
         <node identifier="ac55924c-9a74-140d-7733-8fbc7048bdd9" nodeName="node524c38b97b429">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -929,7 +929,7 @@
         </node>
        </node>
        <node identifier="8d60d85e-27d1-2158-7fe8-27089947e070" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -939,7 +939,7 @@
          <properties/>
         </variant>
         <node identifier="331662cb-9a1e-af2b-c358-67e897b006d4" nodeName="node524c38d8debab">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -952,7 +952,7 @@
          </variant>
         </node>
         <node identifier="732d2a69-6f2e-dbf0-67ac-632879f3f8fc" nodeName="node524c38e478450">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -980,7 +980,7 @@
         </node>
        </node>
        <node identifier="534c084c-4934-2199-aed3-cc0bdf1f625b" nodeName="column2">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -990,7 +990,7 @@
          <properties/>
         </variant>
         <node identifier="d3526a8a-4f69-5062-22c5-27c48541a0f4" nodeName="node524c3900148fb">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1003,7 +1003,7 @@
          </variant>
         </node>
         <node identifier="0143d9ce-d20d-f7ef-39f4-910386f213eb" nodeName="node524c390fb3cd2">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1033,7 +1033,7 @@
        </node>
       </node>
       <node identifier="e0001cd4-50b2-a390-66aa-b2e73d671f59" nodeName="node524d96f6b1348">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1043,7 +1043,7 @@
         <properties/>
        </variant>
        <node identifier="9fb79c14-dee6-a181-f68c-13e7018a7c01" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1053,7 +1053,7 @@
          <properties/>
         </variant>
         <node identifier="69e833bd-b3a9-e0e2-6d93-590b6aa93ead" nodeName="node524d96fe344ac">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1066,7 +1066,7 @@
          </variant>
         </node>
         <node identifier="de9ecb77-46df-02b2-0c71-405c9e6afd5d" nodeName="node524da24645828">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1089,7 +1089,7 @@
         </node>
        </node>
        <node identifier="39a563d5-f8a9-efe5-036d-58c0b572e97b" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1099,7 +1099,7 @@
          <properties/>
         </variant>
         <node identifier="696e0d88-91bb-b27f-39e8-0900076156cd" nodeName="node524da2620ae6d">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1112,7 +1112,7 @@
          </variant>
         </node>
         <node identifier="e5171e7f-8898-be7a-4c05-147ed00f7a00" nodeName="node524da282203b1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1136,7 +1136,7 @@
        </node>
       </node>
       <node identifier="86c77d6d-b704-fcb2-22fb-e2a568beeda0" nodeName="node524d971adfa12">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1146,7 +1146,7 @@
         <properties/>
        </variant>
        <node identifier="3187e8c9-c599-1dda-4917-2c476216c33a" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1156,7 +1156,7 @@
          <properties/>
         </variant>
         <node identifier="7eee2ee6-2a4e-5240-3674-2fb84a51900b" nodeName="node524dac382bd54">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1169,7 +1169,7 @@
          </variant>
         </node>
         <node identifier="8ce8529b-6ae9-0420-f58b-c2f7e18527ec" nodeName="node524dac43689e7">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1192,7 +1192,7 @@
         </node>
        </node>
        <node identifier="aa8880bb-cb8a-1c47-61db-69bcbf4c3e81" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1202,7 +1202,7 @@
          <properties/>
         </variant>
         <node identifier="fc42beed-baea-2b08-32ad-255bc53ee366" nodeName="node524dac5b2fe75">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1216,7 +1216,7 @@
          </variant>
         </node>
         <node identifier="ab9d7e80-ad51-dab9-fbd8-6ead57b061b2" nodeName="node524dac66a8765">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1235,7 +1235,7 @@
       </node>
      </node>
      <node identifier="452374b3-3580-2af3-71bd-f9932faea84d" nodeName="multiple-columns">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -1248,7 +1248,7 @@
        </properties>
       </variant>
       <node identifier="67710271-29d9-f562-8bae-7064c040a2ce" nodeName="main">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1258,7 +1258,7 @@
         <properties/>
        </variant>
        <node identifier="2f2adcb3-aec2-a4fa-bcb4-cb6e350944ca" nodeName="node5249b021e9b20">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1268,7 +1268,7 @@
          <properties/>
         </variant>
         <node identifier="b4a0c575-a6d6-4c49-e156-453cd1c26b63" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1278,7 +1278,7 @@
           <properties/>
          </variant>
          <node identifier="2222f152-129a-fd14-bcdc-0eadca990d90" nodeName="node5249b0794117a">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1307,7 +1307,7 @@
          </node>
         </node>
         <node identifier="9dfaee39-c113-dc4c-70cf-8020588e6ebf" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1317,7 +1317,7 @@
           <properties/>
          </variant>
          <node identifier="2a431846-fbff-26ca-d9ca-cf712506487b" nodeName="node5249b0963fad4">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1341,7 +1341,7 @@
         </node>
        </node>
        <node identifier="5ff2f6e0-53fd-9c90-9c3f-0dc2675e5e57" nodeName="node5249b032bae76">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1354,7 +1354,7 @@
         </variant>
        </node>
        <node identifier="5d2bad97-3c61-2a5f-3548-67abcd024bad" nodeName="node524a9d2ab69b0">
-        <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Content.Columns.Three" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1364,7 +1364,7 @@
          <properties/>
         </variant>
         <node identifier="d959b889-c81c-8b52-ea2e-2ced8aaf9905" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1374,7 +1374,7 @@
           <properties/>
          </variant>
          <node identifier="c2273444-4cb0-2af8-6fcd-8c0101cf6b47" nodeName="node524a9d3c133b4">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1402,7 +1402,7 @@
          </node>
         </node>
         <node identifier="0971d5ac-40c4-4158-4151-be12a5e5cd29" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1412,7 +1412,7 @@
           <properties/>
          </variant>
          <node identifier="6285ae7b-9e37-58ec-99fc-f637db95318e" nodeName="node524a9df3b6389">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1434,7 +1434,7 @@
          </node>
         </node>
         <node identifier="2d1615d6-f313-1e98-eba1-ba22d288f2ba" nodeName="column2">
-         <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1444,7 +1444,7 @@
           <properties/>
          </variant>
          <node identifier="4bc02083-aef4-3dc3-9622-c764843a02b8" nodeName="node524a9dff228ac">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1467,7 +1467,7 @@
         </node>
        </node>
        <node identifier="0d40edca-dea0-bbca-a29a-a76bef6009ff" nodeName="node524a9d49c2036">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1480,7 +1480,7 @@
         </variant>
        </node>
        <node identifier="909eeeb8-73ca-2e45-c7b2-d880e6c17c1c" nodeName="node524a9dc707b81">
-        <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Content.Columns.Four" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Content.Columns.Four" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1490,7 +1490,7 @@
          <properties/>
         </variant>
         <node identifier="91814b81-cbb4-82bc-b102-7645416a3e72" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1500,7 +1500,7 @@
           <properties/>
          </variant>
          <node identifier="bade4900-afef-dc24-698a-77945917ddf1" nodeName="node524a9e0880aa0">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1520,7 +1520,7 @@
          </node>
         </node>
         <node identifier="872d4aea-3bc7-f6d9-1756-5424b05e67ce" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1530,7 +1530,7 @@
           <properties/>
          </variant>
          <node identifier="83345593-6adc-4a4f-d9d5-bee93aed1f42" nodeName="node524a9e11c11b2">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1555,7 +1555,7 @@
          </node>
         </node>
         <node identifier="631aee05-cbe8-d8b6-6a0c-e25b309487e3" nodeName="column2">
-         <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1565,7 +1565,7 @@
           <properties/>
          </variant>
          <node identifier="ddc0e9b2-8279-1c8f-5960-a91ef350774d" nodeName="node524a9e24e1127">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1592,7 +1592,7 @@
          </node>
         </node>
         <node identifier="bf27202c-47bf-b5f3-6d5d-c172b31fef7b" nodeName="column3">
-         <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1602,7 +1602,7 @@
           <properties/>
          </variant>
          <node identifier="b074ce9e-d970-7e33-e836-ce321f9e67f2" nodeName="node524a9e1c138e3">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1626,7 +1626,7 @@
         </node>
        </node>
        <node identifier="fcae727b-df00-bab9-d468-3ae9f2a48ecc" nodeName="node524a9dd93fdf2">
-        <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1640,7 +1640,7 @@
        </node>
       </node>
       <node identifier="c8b78237-f290-b5f3-4f0b-86baf1b6b09c" nodeName="teaser">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1652,7 +1652,7 @@
       </node>
      </node>
      <node identifier="a66ec7db-3459-b67b-7bcb-16e2508a89f0" nodeName="navigation-elements">
-      <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -1665,7 +1665,7 @@
        </properties>
       </variant>
       <node identifier="7c3e4946-d216-14d0-92c5-d7fa75163863" nodeName="first-item">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1678,7 +1678,7 @@
         </properties>
        </variant>
        <node identifier="735ea536-8f55-5b96-f3ff-c2ee40a17152" nodeName="main">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1689,7 +1689,7 @@
         </variant>
        </node>
        <node identifier="8af0a4ec-20a6-1d90-0623-93edc0397646" nodeName="teaser">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1701,7 +1701,7 @@
        </node>
       </node>
       <node identifier="3d2a5644-8957-f2d7-f1a8-63f1f4148ca1" nodeName="main">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1725,7 +1725,7 @@
         </variant>
        </node>
        <node identifier="bd43f1d4-cc7b-4215-b6ff-2f6abddf9e05" nodeName="node524d7184de805">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1738,7 +1738,7 @@
         </variant>
        </node>
        <node identifier="fd283257-9b12-8412-f922-6643ac818294" nodeName="node526b9481061d2">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1751,7 +1751,7 @@
         </variant>
        </node>
        <node identifier="31c87280-d45f-eb82-10b0-092da59d4e02" nodeName="node52a7220c9503b">
-        <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1779,7 +1779,7 @@
        </node>
       </node>
       <node identifier="336d96a5-b6c6-7d81-685f-89d32c37756e" nodeName="second-item">
-       <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1792,7 +1792,7 @@
         </properties>
        </variant>
        <node identifier="de10411e-f4bd-8a67-0902-1f8d909e9556" nodeName="main">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1803,7 +1803,7 @@
         </variant>
        </node>
        <node identifier="ca511a55-c5c0-f7d7-8d71-8edeffc75306" nodeName="teaser">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1815,7 +1815,7 @@
        </node>
       </node>
       <node identifier="85c45c85-ec7b-ec05-6b92-676ca02e64f6" nodeName="teaser">
-       <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1826,7 +1826,7 @@
        </variant>
       </node>
       <node identifier="e93e299d-5c26-34d1-44d7-526a00e1f2e2" nodeName="third-item">
-       <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1839,7 +1839,7 @@
         </properties>
        </variant>
        <node identifier="478f339c-fcb4-c1c7-171c-018901214c7e" nodeName="main">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1850,7 +1850,7 @@
         </variant>
        </node>
        <node identifier="ad7a1c66-96cb-224a-a55f-86e4ec3d0678" nodeName="teaser">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1863,7 +1863,7 @@
       </node>
      </node>
      <node identifier="82c24d81-51fa-87e5-b4ec-73eb505cb826" nodeName="other-elements">
-      <variant sortingIndex="800" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="800" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -1876,7 +1876,7 @@
        </properties>
       </variant>
       <node identifier="51b70c59-dfd5-f30e-3bf6-117f4da3a7f0" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1886,7 +1886,7 @@
         <properties/>
        </variant>
        <node identifier="fe49e180-0faf-260f-f143-5707c9dfe812" nodeName="node-53a1fc469bc10">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1896,7 +1896,7 @@
          <properties/>
         </variant>
         <node identifier="fe77660a-2b06-4edb-f387-173b404e46c9" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1906,7 +1906,7 @@
           <properties/>
          </variant>
          <node identifier="e2cfa14c-514a-74f3-a383-035e27354201" nodeName="node-53a1fc5ec7a1b">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1919,7 +1919,7 @@
           </variant>
          </node>
          <node identifier="b8585c3b-6e2b-75f1-855e-3d14f042366f" nodeName="node-53a1fd21d6a5c">
-          <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -1955,7 +1955,7 @@
          </node>
         </node>
         <node identifier="0aad53bf-8760-8293-feb2-fb1ab1535eb5" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -1967,7 +1967,7 @@
         </node>
        </node>
        <node identifier="0c252a29-4e18-a4e6-adf7-acc272a4f41d" nodeName="node53a18f52e9726">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -1981,7 +1981,7 @@
        </node>
       </node>
       <node identifier="696ce24e-6549-3564-73a0-2d8095634355" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -1993,7 +1993,7 @@
       </node>
      </node>
      <node identifier="c1fbd6ac-f32b-658f-8e6b-66e95d47b7ad" nodeName="plugins">
-      <variant sortingIndex="1000" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1000" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2006,7 +2006,7 @@
        </properties>
       </variant>
       <node identifier="6353f9f3-0f5b-d979-a62c-d373ce51488a" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2016,7 +2016,7 @@
         <properties/>
        </variant>
        <node identifier="2efc3243-7dce-6c23-bba3-18331db58cd9" nodeName="node52a707492582f">
-        <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Content.Flickr" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Content.Flickr" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2029,7 +2029,7 @@
         </variant>
        </node>
        <node identifier="54c67b61-1bc4-ff41-9d9c-3efbf1750430" nodeName="node52a720a42ecb3">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2043,7 +2043,7 @@
         </variant>
        </node>
        <node identifier="fa8e40f7-4465-6aac-ff19-c28dbedb954d" nodeName="untitled">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2057,7 +2057,7 @@
        </node>
       </node>
       <node identifier="0a7d3a47-dad5-8b01-4ca4-e3a7ea5e256a" nodeName="teaser">
-       <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2068,7 +2068,7 @@
        </variant>
       </node>
       <node identifier="0f832ea2-df21-7a81-909e-4b7714ec7ce7" nodeName="user-photo-stream">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2081,7 +2081,7 @@
         </properties>
        </variant>
        <node identifier="e86ed97b-7d98-fb27-a27c-9bcb1b06e35e" nodeName="main">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2107,7 +2107,7 @@
         </node>
        </node>
        <node identifier="95972993-0564-f692-2dad-8cc9898e1749" nodeName="teaser">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2120,7 +2120,7 @@
       </node>
      </node>
      <node identifier="b082c6b6-8a64-4786-b767-d62ef22209b1" nodeName="shortcuts">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2133,7 +2133,7 @@
        </properties>
       </variant>
       <node identifier="abf7d46d-0d36-065e-726b-3dcdd4b42731" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2157,7 +2157,7 @@
         </variant>
        </node>
        <node identifier="53ac4bd9-6d88-40a9-11cc-34639bbf46d2" nodeName="node-5465d9398184b">
-        <variant sortingIndex="50" workspace="live" nodeType="Neos.Demo:Content.Text" version="23" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="50" workspace="live" nodeType="Claudio.Render:Content.Text" version="23" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2187,7 +2187,7 @@
         </properties>
        </variant>
        <node identifier="b082c6b6-8a64-4786-b767-d62ef22209b2" nodeName="downtherabbithole">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Document.LandingPage" version="13" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Document.LandingPage" version="13" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2200,7 +2200,7 @@
          </properties>
         </variant>
         <node identifier="cd2b9f31-2325-f6a2-75b3-95861fcf0201" nodeName="main">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -2210,7 +2210,7 @@
           <properties/>
          </variant>
          <node identifier="f6f87dde-2b62-e837-45d6-78b1e736fd33" nodeName="node-55a62cc29c709">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -2226,7 +2226,7 @@
          </node>
         </node>
         <node identifier="429ed834-1da8-7269-94a2-f9f6c2da5dcc" nodeName="teaser">
-         <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -2236,7 +2236,7 @@
           <properties/>
          </variant>
          <node identifier="8170a593-17ce-86a0-feeb-229fbb33758d" nodeName="node52a72865bd65a">
-          <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Image" version="14" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Image" version="14" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en_US</language>
            </dimensions>
@@ -2305,7 +2305,7 @@
        </variant>
       </node>
       <node identifier="5c0beaab-3842-fd23-0c3a-1a4a1c2d4d90" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2317,7 +2317,7 @@
       </node>
      </node>
      <node identifier="a52ea8b8-d7c3-486b-41c4-8fbe35814760" nodeName="teaser">
-      <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2327,7 +2327,7 @@
        <properties/>
       </variant>
       <node identifier="68c4dfc4-f9cf-a87b-a908-9c538ad3c272" nodeName="node524dad3b286ed">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2344,7 +2344,7 @@
      </node>
     </node>
     <node identifier="037aba4f-10c1-a349-e816-352f11ad2f22" nodeName="footer">
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>lv</language>
       </dimensions>
@@ -2354,7 +2354,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
@@ -2364,7 +2364,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:12:52+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>da</language>
       </dimensions>
@@ -2374,7 +2374,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>fr</language>
       </dimensions>
@@ -2384,7 +2384,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="13" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="13" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -2394,7 +2394,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-23T20:44:40+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Footer" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>nl</language>
       </dimensions>
@@ -2405,7 +2405,7 @@
       <properties/>
      </variant>
      <node identifier="6fea08d6-e3c4-8937-bfdf-ce8e5d4d1bd1" nodeName="node524e798485de4">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2435,7 +2435,7 @@
      </variant>
     </node>
     <node identifier="b189bfaa-080c-96da-6cb9-f32bbc0b41b1" nodeName="main">
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>fr</language>
       </dimensions>
@@ -2445,7 +2445,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>lv</language>
       </dimensions>
@@ -2455,7 +2455,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
@@ -2465,7 +2465,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:12:52+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>da</language>
       </dimensions>
@@ -2475,7 +2475,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>nl</language>
       </dimensions>
@@ -2485,7 +2485,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="14" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="14" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -2496,7 +2496,7 @@
       <properties/>
      </variant>
      <node identifier="198d23f8-5fe4-5b4f-2766-38c7418ed16e" nodeName="node524a87808ab3e">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2506,7 +2506,7 @@
        <properties/>
       </variant>
       <node identifier="0f971681-654f-7bbf-7faa-c1d33dd4431d" nodeName="column0">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2516,7 +2516,7 @@
         <properties/>
        </variant>
        <node identifier="2efd1380-b8af-4265-ab68-2b16ac580a49" nodeName="node-rg13gy6gpohux">
-        <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Content.Image" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Content.Image" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2531,7 +2531,7 @@
         </variant>
        </node>
        <node identifier="5f055aca-616a-dd77-112b-3c45d1b591fb" nodeName="node524a8a41c2f1f">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2554,7 +2554,7 @@
         </variant>
        </node>
        <node identifier="73efb4d4-d574-0f71-4955-8bd16bca65ac" nodeName="node526a3d67478a0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2568,7 +2568,7 @@
        </node>
       </node>
       <node identifier="d34eb03c-d500-06ef-2d1c-0aca783dd56b" nodeName="column1">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2578,7 +2578,7 @@
         <properties/>
        </variant>
        <node identifier="dbfd9c7d-1689-2f00-9d91-420d2a7ceb63" nodeName="node524a8a4beba47">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2603,7 +2603,7 @@
         </variant>
        </node>
        <node identifier="b4256091-6c6e-dc42-fac3-76d434b435a9" nodeName="node526a3d93596ba">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2619,7 +2619,7 @@
      </node>
     </node>
     <node identifier="fee74676-c42f-89da-208e-1741a66525d4" nodeName="member-area">
-     <variant sortingIndex="850" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="850" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -2632,7 +2632,7 @@
       </properties>
      </variant>
      <node identifier="7202e679-37c7-92fd-0be1-b2d6ca89313d" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2642,7 +2642,7 @@
        <properties/>
       </variant>
       <node identifier="d6e3e7c4-9695-340f-5de9-1e97cd417e6e" nodeName="node-5534be1a96cc6">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2655,7 +2655,7 @@
        </variant>
       </node>
       <node identifier="6699ed38-ab50-a627-b0bc-14c363dd6bfa" nodeName="node-5534be246ac2a">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.Demo:Content.Text" version="59" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Claudio.Render:Content.Text" version="59" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2668,14 +2668,14 @@
                                         users according to the provided Policy.yaml:&lt;/p&gt;&lt;pre&gt;privilegeTargets:
                                         &lt;br/&gt;
                                         'TYPO3\TYPO3CR\Security\Authorization\Privilege\Node\ReadNodePrivilege':&lt;br/&gt;
-                                        'Neos.Demo:MembersArea':&lt;br/&gt; # fee74676-c42f-89da-208e-1741a66525d4 is
+                                        'Claudio.Render:MembersArea':&lt;br/&gt; # fee74676-c42f-89da-208e-1741a66525d4 is
                                         the identifier of the &quot;Member area&quot; node.&lt;br/&gt; # You can also
                                         specify the nodepath, but that is not as reliable &lt;br/&gt; matcher:
                                         'isDescendantNodeOf(&quot;fee74676-c42f-89da-208e-1741a66525d4&quot;)'&lt;br/&gt;&lt;br/&gt;roles:&lt;br/&gt;
                                         'Flowpack.Neos.FrontendLogin:User':&lt;br/&gt; privileges:&lt;br/&gt; -&lt;br/&gt;
-                                        privilegeTarget: 'Neos.Demo:MembersArea'&lt;br/&gt; permission: GRANT&lt;br/&gt;&lt;br/&gt;
+                                        privilegeTarget: 'Claudio.Render:MembersArea'&lt;br/&gt; permission: GRANT&lt;br/&gt;&lt;br/&gt;
                                         'TYPO3.Neos:Editor':&lt;br/&gt; privileges:&lt;br/&gt; -&lt;br/&gt;
-                                        privilegeTarget: 'Neos.Demo:MembersArea'&lt;br/&gt; permission: GRANT&lt;br/&gt;&lt;/pre&gt;&lt;p&gt;If
+                                        privilegeTarget: 'Claudio.Render:MembersArea'&lt;br/&gt; permission: GRANT&lt;br/&gt;&lt;/pre&gt;&lt;p&gt;If
                                         the session expires or you un-authenticate the current user using the &lt;a
                                         href=&quot;node://b6788725-56c8-4284-400f-fdb990297cfa&quot;
                                         data-gentics-aloha-repository=&quot;node-repository&quot;
@@ -2688,7 +2688,7 @@
       </node>
      </node>
      <node identifier="24f07912-4661-f2dc-dbc0-3c5edefe971e" nodeName="subpage">
-      <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2701,7 +2701,7 @@
        </properties>
       </variant>
       <node identifier="52355915-1664-4543-fd84-09682f3a0903" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2711,7 +2711,7 @@
         <properties/>
        </variant>
        <node identifier="95ca19f1-bf01-b92e-211f-9d5a7951c86a" nodeName="node-5534bf643b4a5">
-        <variant sortingIndex="150" workspace="live" nodeType="Neos.Demo:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Claudio.Render:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2724,7 +2724,7 @@
         </variant>
        </node>
        <node identifier="e17835f6-f095-920d-fc9a-4b2ac7550bfc" nodeName="node-5534bf7543bb1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="26" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="26" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2741,7 +2741,7 @@
         </variant>
        </node>
        <node identifier="94f7cd09-1ed9-41e4-80d6-d5b8ef5ea6d7" nodeName="node-5678698bab786">
-        <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Content.Image" version="7" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Content.Image" version="7" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2756,7 +2756,7 @@
        </node>
       </node>
       <node identifier="f1689b5c-dd89-f779-63db-64f739e2f53a" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2768,7 +2768,7 @@
       </node>
      </node>
      <node identifier="24883051-bccd-c8fb-d578-dfb5982f7f43" nodeName="teaser">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2780,7 +2780,7 @@
      </node>
     </node>
     <node identifier="ac9f9c81-d674-8f01-7d38-d8ee44148630" nodeName="metamenu">
-     <variant sortingIndex="700" workspace="live" nodeType="Neos.Demo:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="1">
+     <variant sortingIndex="700" workspace="live" nodeType="Claudio.Render:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -2793,7 +2793,7 @@
       </properties>
      </variant>
      <node identifier="2d26b296-d3d2-69c1-b73e-0d1c801fe07a" nodeName="contribute">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Document.Page" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2806,7 +2806,7 @@
        </properties>
       </variant>
       <node identifier="b7d589da-4d0b-c7d9-879d-03eb83b895e4" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2817,7 +2817,7 @@
        </variant>
       </node>
       <node identifier="a188af35-e515-10a6-de63-8245a6f31c86" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2827,7 +2827,7 @@
         <properties/>
        </variant>
        <node identifier="de650f46-7ac1-4b7d-3912-229ab8a319e1" nodeName="node526b909bb32be">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2844,7 +2844,7 @@
       </node>
      </node>
      <node identifier="a56a3763-fa45-e12e-2236-5921e35ea756" nodeName="documentation">
-      <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2857,7 +2857,7 @@
        </properties>
       </variant>
       <node identifier="5f8101e3-cc16-9c35-5d3f-390253fad6c3" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2867,7 +2867,7 @@
         <properties/>
        </variant>
        <node identifier="6fa597d6-36da-e9c9-644f-0fc9d01ae9ef" nodeName="node52a7276d531e2">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2880,7 +2880,7 @@
         </variant>
        </node>
        <node identifier="1c971ea6-e7f1-bf97-0994-16870c4d1160" nodeName="untitled">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -2897,7 +2897,7 @@
        </node>
       </node>
       <node identifier="27c74df7-91c8-8cf4-7a81-432a87eb5ae9" nodeName="teaser">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -2926,7 +2926,7 @@
       </variant>
      </node>
      <node identifier="19e7914a-7b6e-ce8a-c83d-0bd83f659c4c" nodeName="main">
-      <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2937,7 +2937,7 @@
       </variant>
      </node>
      <node identifier="b8a3eb50-d8a9-d535-3e44-38bb892541a4" nodeName="teaser">
-      <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -2949,7 +2949,7 @@
      </node>
     </node>
     <node identifier="f6cebea5-fbef-5afc-ea0e-9e90f262499b" nodeName="notfound">
-     <variant sortingIndex="1250" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
+     <variant sortingIndex="1250" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
       <dimensions>
        <language>de</language>
       </dimensions>
@@ -2962,7 +2962,7 @@
        <title __type="string">Not Found</title>
       </properties>
      </variant>
-     <variant sortingIndex="1450" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
+     <variant sortingIndex="1450" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
       <dimensions>
        <language>da</language>
       </dimensions>
@@ -2975,7 +2975,7 @@
        <title __type="string">Not Found</title>
       </properties>
      </variant>
-     <variant sortingIndex="1350" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
+     <variant sortingIndex="1350" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
       <dimensions>
        <language>lv</language>
       </dimensions>
@@ -2988,7 +2988,7 @@
        <title __type="string">Not Found</title>
       </properties>
      </variant>
-     <variant sortingIndex="1150" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
+     <variant sortingIndex="1150" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
       <dimensions>
        <language>nl</language>
       </dimensions>
@@ -3001,7 +3001,7 @@
        <title __type="string">Not Found</title>
       </properties>
      </variant>
-     <variant sortingIndex="1050" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
+     <variant sortingIndex="1050" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="1" removed="" hidden="1" hiddenInIndex="1">
       <dimensions>
        <language>fr</language>
       </dimensions>
@@ -3014,7 +3014,7 @@
        <title __type="string">Not Found</title>
       </properties>
      </variant>
-     <variant sortingIndex="950" workspace="live" nodeType="Neos.Demo:Document.NotFoundPage" version="2" removed="" hidden="" hiddenInIndex="1">
+     <variant sortingIndex="950" workspace="live" nodeType="Claudio.Render:Document.NotFoundPage" version="2" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -3029,7 +3029,7 @@
       </properties>
      </variant>
      <node identifier="1f9645bb-53ba-ab52-43ef-e42e8dd57ff2" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3038,7 +3038,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>fr</language>
        </dimensions>
@@ -3047,7 +3047,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>nl</language>
        </dimensions>
@@ -3056,7 +3056,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="700" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="700" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
@@ -3065,7 +3065,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="900" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="900" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>lv</language>
        </dimensions>
@@ -3074,7 +3074,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="1100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
@@ -3084,7 +3084,7 @@
        <properties/>
       </variant>
       <node identifier="25fbcc6a-27dd-4dc1-8495-8f0dcca3c6e2" nodeName="node-6ugkyqededea7">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.Demo:Content.Text" version="17" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Claudio.Render:Content.Text" version="17" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3098,7 +3098,7 @@
        </variant>
       </node>
       <node identifier="c141039c-55e3-4a15-a5dd-aed4504374f3" nodeName="node-o07zq1gg92un6">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="14" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="14" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3113,7 +3113,7 @@
       </node>
      </node>
      <node identifier="a0709c7d-2398-d98e-421d-060afb023669" nodeName="teaser">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3122,7 +3122,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>nl</language>
        </dimensions>
@@ -3131,7 +3131,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="800" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="800" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
@@ -3140,7 +3140,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="1000" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1000" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>lv</language>
        </dimensions>
@@ -3149,7 +3149,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="1200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
@@ -3158,7 +3158,7 @@
        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-22T17:37:13+00:00</lastModificationDateTime>
        <properties/>
       </variant>
-      <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="1" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>fr</language>
        </dimensions>
@@ -3170,7 +3170,7 @@
      </node>
     </node>
     <node identifier="7005c7cf-4d19-ce36-0873-476b6cadb71a" nodeName="teaser">
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="14" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="14" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -3180,7 +3180,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-23T20:44:40+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>nl</language>
       </dimensions>
@@ -3190,7 +3190,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>da</language>
       </dimensions>
@@ -3200,7 +3200,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>fr</language>
       </dimensions>
@@ -3210,7 +3210,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:16:17+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
@@ -3220,7 +3220,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-20T21:12:52+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>lv</language>
       </dimensions>
@@ -3231,7 +3231,7 @@
       <properties/>
      </variant>
      <node identifier="d17caff2-f50c-d30b-b735-9b9216de02e9" nodeName="node52697bdfee199">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>nl</language>
        </dimensions>
@@ -3244,7 +3244,7 @@
 </title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
@@ -3257,7 +3257,7 @@
 </title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
@@ -3270,7 +3270,7 @@
 </title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>lv</language>
        </dimensions>
@@ -3283,7 +3283,7 @@
 </title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="7" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="7" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3295,7 +3295,7 @@
         <title __type="string">&lt;h1&gt;Create 💙 content.&lt;/h1&gt;</title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_UK</language>
        </dimensions>
@@ -3307,7 +3307,7 @@
         <title __type="string">&lt;h1&gt;Create ❤️ marvelous content.&lt;/h1&gt;</title>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>fr</language>
        </dimensions>
@@ -3324,7 +3324,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
      </node>
     </node>
     <node identifier="1ce0d7b3-250c-5254-a94e-cbcaca5534eb" nodeName="the-book">
-     <variant sortingIndex="800" workspace="live" nodeType="Neos.Demo:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="800" workspace="live" nodeType="Claudio.Render:Document.LandingPage" version="12" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -3337,7 +3337,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </properties>
      </variant>
      <node identifier="6db34628-60c7-4c9a-f6dd-54742816039e" nodeName="i-down-the-rabbit-hole">
-      <variant sortingIndex="300" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3359,7 +3359,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="fe7ddf70-2154-4ab5-88d7-05e36b34a101" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3369,7 +3369,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="490a4be2-624e-4d34-1406-d87925604349" nodeName="node52a31523cce3c">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -3545,7 +3545,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="7697f046-e514-7bdc-7bda-95ab8d05eeaf" nodeName="ii-the-pool-of-tears">
-      <variant sortingIndex="400" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3568,7 +3568,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="2c24f687-4c79-d528-ca21-bb750bd395b1" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3578,7 +3578,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="d68180c8-446c-e3c4-074d-9a135eec6b3a" nodeName="node52a3769634249">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -3752,7 +3752,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="8eb77a5d-de92-1889-2eff-8eaf2a1d0bfe" nodeName="iii-a-caucus-race-and-a-long-tale">
-      <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3773,7 +3773,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="2172ea72-aec1-8b88-3e6f-5e9e981a9044" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3783,7 +3783,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="c0f1e17e-2fb6-08e2-21fb-ad3a1dfbe9df" nodeName="node52a378165cec3">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -3946,7 +3946,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="a8c18020-0a89-168c-2703-680fa7795114" nodeName="iv-the-rabbit-sends-in-a-little-bill">
-      <variant sortingIndex="600" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="600" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -3969,7 +3969,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="8017119c-aa10-53e0-cfde-4939b7ca6290" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -3979,7 +3979,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="1833a0d9-f43f-f378-be0e-ab253d0b9a8a" nodeName="node52a37aa58eeeb">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -4197,7 +4197,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="50d505ea-6703-d959-550a-4a7f879607f9" nodeName="ix-the-mock-turtle-s-story">
-      <variant sortingIndex="1100" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1100" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -4218,7 +4218,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="823f4a1e-02af-d241-e7d7-8fa069bf1c38" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -4228,7 +4228,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="b9e38ee3-3b85-8829-5d6f-5ee885ffcaf6" nodeName="node52a3a3d174956">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -4448,7 +4448,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="cff133ec-8060-b24c-691e-290eba10e7e3" nodeName="main">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -4458,7 +4458,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        <properties/>
       </variant>
       <node identifier="40986988-9f18-4817-5d57-639aa15b51ee" nodeName="node524e967c9d58b">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -4468,7 +4468,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="d78c6255-6e92-55c4-a1a0-8522b768a818" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -4478,7 +4478,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
          <properties/>
         </variant>
         <node identifier="89246d3d-8f9d-d26b-57e7-03e1aab62fed" nodeName="node524e96be7a9f4">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -4493,7 +4493,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         </node>
        </node>
        <node identifier="f018f1c2-ac1a-6142-40d7-196b09ee5f8d" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -4503,7 +4503,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
          <properties/>
         </variant>
         <node identifier="5d448dac-0ec7-3d3f-d4d7-396e183d74c9" nodeName="node524e96b0bcedb">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.ChapterMenu" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.ChapterMenu" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -4517,7 +4517,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="f72443f2-21c0-85f9-d5b3-ba0902f0020d" nodeName="teaser">
-      <variant sortingIndex="250" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="250" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -4527,7 +4527,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        <properties/>
       </variant>
       <node identifier="27bca31b-c966-5b59-2a6a-c681bc4ec23a" nodeName="node52a3147fd7aae">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -4542,7 +4542,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="a0d4a0f6-bb04-1805-6e43-c76a948383ed" nodeName="v-advice-from-a-caterpillar">
-      <variant sortingIndex="700" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="700" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -4562,7 +4562,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="dbe8c26b-00e4-8770-25ba-4d2e32a60548" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -4572,7 +4572,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="0559d0ad-4472-c00e-9ab7-373674afdf3b" nodeName="node52a37c39c22dd">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -4776,7 +4776,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="65179278-97cc-7794-4182-5a80ab6f1bc9" nodeName="vi-pig-and-pepper">
-      <variant sortingIndex="800" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="800" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -4799,7 +4799,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="a89dd146-4065-db6e-ed5a-0a021ef7ea4e" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -4809,7 +4809,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="d4bd562b-2bdf-17c5-dc62-417c80b828ef" nodeName="node52a39a3a68eaf">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -5041,7 +5041,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="8454cc34-70ea-bce5-1ce4-a8783333c159" nodeName="vii-a-mad-tea-party">
-      <variant sortingIndex="900" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="900" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -5059,7 +5059,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="46744843-8510-e5f1-29b0-87091c143472" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -5069,7 +5069,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="037e4a67-a80d-d05a-ba37-11ae18515f38" nodeName="node52a39d015051d">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -5292,7 +5292,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="1d776e0d-f564-6a8e-2918-b85602c3de9b" nodeName="viii-the-queen-s-croquet-ground">
-      <variant sortingIndex="1000" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1000" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -5313,7 +5313,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="9902048e-11ee-2da2-0664-88ac4c51449a" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -5323,7 +5323,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="6d360cc2-35c9-8af4-a931-265dd86ee09f" nodeName="node52a3a07348e91">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -5550,7 +5550,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="23f35ab0-0d82-21e7-0006-dd63c5b3dce8" nodeName="x-the-lobster-quadrille">
-      <variant sortingIndex="1200" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1200" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -5570,7 +5570,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="95237f9c-6e93-f8df-6a4c-94d9e381fe9d" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -5580,7 +5580,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="c30d4851-6cc8-03ff-d526-1e5a02025293" nodeName="node52a3a543ad9e2">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -5779,7 +5779,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="e40275e7-109b-ba78-da74-0a71c10c2652" nodeName="xi-who-stole-the-tarts">
-      <variant sortingIndex="1300" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1300" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -5799,7 +5799,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="34faf051-f12e-ba21-8b53-6f057962db09" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -5809,7 +5809,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="17f26b36-02be-dfa2-cf71-1e64f26098bf" nodeName="node52a3a65b4c18d">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -5990,7 +5990,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="f1fbb253-1851-805a-c2fa-f4692458faeb" nodeName="xii-alice-s-evidence">
-      <variant sortingIndex="1400" workspace="live" nodeType="Neos.Demo:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="1400" workspace="live" nodeType="Claudio.Render:Document.Chapter" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -6011,7 +6011,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </properties>
       </variant>
       <node identifier="7627aa5c-8bf0-62c1-49d1-96e7698b4dbb" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -6021,7 +6021,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="559ebcb9-9192-649c-4784-8401518faa93" nodeName="node52a3a75669d3c">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -6221,7 +6221,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
      </node>
     </node>
     <node identifier="a319a653-ef38-448d-9d19-0894299068aa" nodeName="try-me">
-     <variant sortingIndex="500" workspace="live" nodeType="Neos.Demo:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="500" workspace="live" nodeType="Claudio.Render:Document.Page" version="12" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en_US</language>
       </dimensions>
@@ -6234,7 +6234,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </properties>
      </variant>
      <node identifier="ae7708fa-385d-6a5b-8fe1-6d3e3687fa6d" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Main" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>
@@ -6244,7 +6244,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        <properties/>
       </variant>
       <node identifier="55a38b4b-98a6-09ef-bab4-972e19e51995" nodeName="node52a4394db3af3">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Columns.Two" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -6254,7 +6254,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         <properties/>
        </variant>
        <node identifier="20d73068-d844-8db4-d8a5-4337612dbdb2" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -6264,7 +6264,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
          <properties/>
         </variant>
         <node identifier="d8a8a5e5-275f-c01b-c6be-f082ef11d0ad" nodeName="node52a43b8c4c64e">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -6277,7 +6277,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
          </variant>
         </node>
         <node identifier="26793a24-bc4e-70e9-7f4b-50022a1d902c" nodeName="node52a43c490581d">
-         <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -6294,7 +6294,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
         </node>
        </node>
        <node identifier="4f717073-3aa3-3c89-3756-4f3670acd95a" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Column" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en_US</language>
          </dimensions>
@@ -6304,7 +6304,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
          <properties/>
         </variant>
         <node identifier="e08d2da3-e60f-fc43-7121-5be0be8d45c6" nodeName="node524dabaf47175">
-         <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Registration" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Registration" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en_US</language>
           </dimensions>
@@ -6317,7 +6317,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
        </node>
       </node>
       <node identifier="79a05b78-a99c-761e-5fde-571cc9528003" nodeName="untitled">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Demo:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Claudio.Render:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en_US</language>
         </dimensions>
@@ -6331,7 +6331,7 @@ Créer un contenu de ❤️.&lt;/h1&gt;
       </node>
      </node>
      <node identifier="81d761f6-d254-6ba8-8dc1-35c2169a32f4" nodeName="teaser">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Demo:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Claudio.Render:Collection.Content.Teaser" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en_US</language>
        </dimensions>

@@ -1,8 +1,8 @@
 <?php
-namespace Neos\Demo\Controller;
+namespace Claudio\Render\Controller;
 
 /*
- * This file is part of the Neos.Demo package.
+ * This file is part of the Claudio.Render package.
  *
  * (c) Contributors of the Neos Project - www.neos.io
  *
@@ -19,7 +19,7 @@ use Neos\Flow\Security\Account;
 use Neos\Flow\Security\AccountFactory;
 use Neos\Flow\Security\AccountRepository;
 use Neos\Neos\Domain\Model\User;
-use Neos\Demo\Domain\Model\Registration;
+use Claudio\Render\Domain\Model\Registration;
 use Neos\Party\Domain\Model\PersonName;
 use Neos\Party\Domain\Repository\PartyRepository;
 use Neos\Party\Domain\Service\PartyService;

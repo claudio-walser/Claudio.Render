@@ -1,10 +1,10 @@
-'Neos.Demo:Content.Image':
+'Claudio.Render:Content.Image':
   superTypes:
     'Neos.Neos:Content': true
     'Neos.NodeTypes.BaseMixins:ImageMixin': true
     'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
-    'Neos.Demo:Constraint.Content.Carousel': true
-    'Neos.Demo:Constraint.Content.Column': true
+    'Claudio.Render:Constraint.Content.Carousel': true
+    'Claudio.Render:Constraint.Content.Column': true
   ui:
     label: i18n
     icon: 'icon-picture'

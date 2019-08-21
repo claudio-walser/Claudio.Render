@@ -1,16 +1,16 @@
 ##
 # A new Document NodeType "Chapter"
 #
-'Neos.Demo:Document.Chapter':
+'Claudio.Render:Document.Chapter':
   superTypes:
     'Neos.Neos:Document': true
   constraints:
     nodeTypes:
-      'Neos.Demo:Document.Homepage': false
-      'Neos.Demo:Document.NotFoundPage': false
+      'Claudio.Render:Document.Homepage': false
+      'Claudio.Render:Document.NotFoundPage': false
   childNodes:
     'main':
-      type: 'Neos.Demo:Collection.Content.Main'
+      type: 'Claudio.Render:Collection.Content.Main'
   ui:
     label: i18n
     icon: 'icon-book'

@@ -1,16 +1,16 @@
 /**
- * Homepage rendering for the Neos.Demo website
+ * Homepage rendering for the Claudio.Render website
  */
-prototype(Neos.Demo:Document.Chapter) < prototype(Neos.Fusion:Component) {
+prototype(Claudio.Render:Document.Chapter) < prototype(Neos.Fusion:Component) {
     @context.previousChapter = ${q(documentNode).prev('[instanceof Neos.Neos:Document]').get(0)}
     @context.nextChapter = ${q(documentNode).next('[instanceof Neos.Neos:Document]').get(0)}
     @context.chapterImage = ${q(documentNode).property('chapterImage')}
 
-    breadcrumbMenu = Neos.Demo:Document.Fragment.Menu.Breadcrumb
-    metaMenu = Neos.Demo:Document.Fragment.Menu.Meta
+    breadcrumbMenu = Claudio.Render:Document.Fragment.Menu.Breadcrumb
+    metaMenu = Claudio.Render:Document.Fragment.Menu.Meta
 
-    mainContent = Neos.Demo:Document.Fragment.Content.Main
-    footerContent = Neos.Demo:Document.Fragment.Content.Footer
+    mainContent = Claudio.Render:Document.Fragment.Content.Main
+    footerContent = Claudio.Render:Document.Fragment.Content.Footer
 
     title = Neos.Fusion:Tag {
         tagName = 'h1'
@@ -41,7 +41,7 @@ prototype(Neos.Demo:Document.Chapter) < prototype(Neos.Fusion:Component) {
         node = ${nextChapter}
     }
 
-    renderer = Neos.Demo:Document.Base {
+    renderer = Claudio.Render:Document.Base {
         bodyClass = 'chapter'
         body = afx`
             <div class="container chapter-container">

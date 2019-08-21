@@ -1,7 +1,7 @@
 ##
 # Figure fragment for text and textWithImage
 #
-prototype(Neos.Demo:Content.Fragment.Image.Figure) < prototype(Neos.Fusion:Component) {
+prototype(Claudio.Render:Content.Fragment.Image.Figure) < prototype(Neos.Fusion:Component) {
     src = Neos.Fusion:Case {
         asset {
             condition = ${q(node).property('image')}

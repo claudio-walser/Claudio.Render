@@ -1,5 +1,5 @@
 up:
-  comments: 'Migrate content collection types to Neos.Demo namespace'
+  comments: 'Migrate content collection types to Claudio.Render namespace'
   migration:
     -
       filters:
@@ -15,7 +15,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Main'
+            newType: 'Claudio.Render:Collection.Content.Main'
     -
       filters:
         -
@@ -30,7 +30,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Teaser'
+            newType: 'Claudio.Render:Collection.Content.Teaser'
     -
       filters:
         -
@@ -45,7 +45,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Footer'
+            newType: 'Claudio.Render:Collection.Content.Footer'
     -
       filters:
         -
@@ -60,7 +60,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Carousel'
+            newType: 'Claudio.Render:Collection.Content.Carousel'
     -
       filters:
         -
@@ -75,7 +75,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Column'
+            newType: 'Claudio.Render:Collection.Content.Column'
     -
       filters:
         -
@@ -90,7 +90,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Column'
+            newType: 'Claudio.Render:Collection.Content.Column'
     -
       filters:
         -
@@ -105,7 +105,7 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Column'
+            newType: 'Claudio.Render:Collection.Content.Column'
     -
       filters:
         -
@@ -120,9 +120,9 @@ up:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Collection.Content.Column'
+            newType: 'Claudio.Render:Collection.Content.Column'
 down:
-  comments: 'Migrate content collection from Neos.Demo namespace back to Neos.Neos:ContentCollection'
+  comments: 'Migrate content collection from Claudio.Render namespace back to Neos.Neos:ContentCollection'
   migration:
     -
       filters:
@@ -133,7 +133,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Main'
+            nodeType: 'Claudio.Render:Collection.Content.Main'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -148,7 +148,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Teaser'
+            nodeType: 'Claudio.Render:Collection.Content.Teaser'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -163,7 +163,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Footer'
+            nodeType: 'Claudio.Render:Collection.Content.Footer'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -178,7 +178,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Carousel'
+            nodeType: 'Claudio.Render:Collection.Content.Carousel'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -193,7 +193,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Column'
+            nodeType: 'Claudio.Render:Collection.Content.Column'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -208,7 +208,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Column'
+            nodeType: 'Claudio.Render:Collection.Content.Column'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -223,7 +223,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Column'
+            nodeType: 'Claudio.Render:Collection.Content.Column'
       transformations:
         -
           type: 'ChangeNodeType'
@@ -238,7 +238,7 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Collection.Content.Column'
+            nodeType: 'Claudio.Render:Collection.Content.Column'
       transformations:
         -
           type: 'ChangeNodeType'

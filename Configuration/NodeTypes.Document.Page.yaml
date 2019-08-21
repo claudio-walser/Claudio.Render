@@ -1,7 +1,7 @@
 ##
 # A new Document NodeType "Page"
 #
-'Neos.Demo:Document.Page':
+'Claudio.Render:Document.Page':
   superTypes:
     'Neos.Neos:Document': true
   ui:
@@ -17,13 +17,13 @@
           icon: 'icon-image'
   constraints:
     nodeTypes:
-      'Neos.Demo:Document.Homepage': false
-      'Neos.Demo:Document.NotFoundPage': false
+      'Claudio.Render:Document.Homepage': false
+      'Claudio.Render:Document.NotFoundPage': false
   childNodes:
     'main':
-      type: 'Neos.Demo:Collection.Content.Main'
+      type: 'Claudio.Render:Collection.Content.Main'
     'teaser':
-      type: 'Neos.Demo:Collection.Content.Teaser'
+      type: 'Claudio.Render:Collection.Content.Teaser'
   properties:
     'image':
       type: 'Neos\Media\Domain\Model\ImageInterface'

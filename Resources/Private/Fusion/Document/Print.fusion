@@ -1,11 +1,11 @@
 /**
- * Default print rendering for the Neos.Demo website
+ * Default print rendering for the Claudio.Render website
  */
-print = Neos.Demo:Document.Page {
-    prototype(Neos.Demo:Document.Fragment.StyleSheets) {
+print = Claudio.Render:Document.Page {
+    prototype(Claudio.Render:Document.Fragment.StyleSheets) {
         @process.appendPrintCssWithMediaAll = afx`
             {value}
-            <Neos.Demo:Helper.StyleTag path="resource://Neos.Demo/Public/Styles/Print.css" media="all" />
+            <Claudio.Render:Helper.StyleTag path="resource://Claudio.Render/Public/Styles/Print.css" media="all" />
         `
     }
 }

@@ -1,7 +1,7 @@
 ##
 # "Headline" element
 #
-prototype(Neos.Demo:Content.Headline) < prototype(Neos.Neos:ContentComponent) {
+prototype(Claudio.Render:Content.Headline) < prototype(Neos.Neos:ContentComponent) {
     title = Neos.Neos:Editable {
         property = 'title'
     }

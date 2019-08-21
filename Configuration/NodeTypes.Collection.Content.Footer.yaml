@@ -1,12 +1,12 @@
 ##
 # The footer content collection
 #
-'Neos.Demo:Collection.Content.Footer':
+'Claudio.Render:Collection.Content.Footer':
   superTypes:
     Neos.Neos:ContentCollection: true
   constraints:
     nodeTypes:
       '*': false
-      'Neos.Demo:Content.Headline': true
-      'Neos.Demo:Content.Text': true
-      'Neos.Demo:Content.Image': true
+      'Claudio.Render:Content.Headline': true
+      'Claudio.Render:Content.Text': true
+      'Claudio.Render:Content.Image': true

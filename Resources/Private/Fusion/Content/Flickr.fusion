@@ -1,8 +1,8 @@
 ##
 # "Flickr" element, extending "Plugin"
 #
-prototype(Neos.Demo:Content.Flickr) < prototype(Neos.Neos:Plugin) {
-    package = 'Neos.Demo'
+prototype(Claudio.Render:Content.Flickr) < prototype(Neos.Neos:Plugin) {
+    package = 'Claudio.Render'
     controller = 'Flickr'
     action = 'tagStream'
 }

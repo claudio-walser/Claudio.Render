@@ -6,78 +6,78 @@ up:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Carousel'
+            nodeType: 'Claudio.Render:Carousel'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Content.Carousel'
+            newType: 'Claudio.Render:Content.Carousel'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:ChapterMenu'
+            nodeType: 'Claudio.Render:ChapterMenu'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Content.ChapterMenu'
+            newType: 'Claudio.Render:Content.ChapterMenu'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Flickr'
+            nodeType: 'Claudio.Render:Flickr'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Content.Flickr'
+            newType: 'Claudio.Render:Content.Flickr'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Registration'
+            nodeType: 'Claudio.Render:Registration'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Content.Registration'
+            newType: 'Claudio.Render:Content.Registration'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:YouTube'
+            nodeType: 'Claudio.Render:YouTube'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Content.YouTube'
+            newType: 'Claudio.Render:Content.YouTube'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Chapter'
+            nodeType: 'Claudio.Render:Chapter'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Document.Chapter'
+            newType: 'Claudio.Render:Document.Chapter'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Homepage'
+            nodeType: 'Claudio.Render:Homepage'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Document.Homepage'
+            newType: 'Claudio.Render:Document.Homepage'
 
 
 down:
@@ -88,75 +88,75 @@ down:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Content.Carousel'
+            nodeType: 'Claudio.Render:Content.Carousel'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Carousel'
+            newType: 'Claudio.Render:Carousel'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Content.ChapterMenu'
+            nodeType: 'Claudio.Render:Content.ChapterMenu'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:ChapterMenu'
+            newType: 'Claudio.Render:ChapterMenu'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Content.Flickr'
+            nodeType: 'Claudio.Render:Content.Flickr'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Flickr'
+            newType: 'Claudio.Render:Flickr'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Content.Registration'
+            nodeType: 'Claudio.Render:Content.Registration'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Registration'
+            newType: 'Claudio.Render:Registration'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Content.YouTube'
+            nodeType: 'Claudio.Render:Content.YouTube'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:YouTube'
+            newType: 'Claudio.Render:YouTube'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Document.Chapter'
+            nodeType: 'Claudio.Render:Document.Chapter'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Chapter'
+            newType: 'Claudio.Render:Chapter'
     -
       filters:
         -
           type: 'NodeType'
           settings:
-            nodeType: 'Neos.Demo:Document.Homepage'
+            nodeType: 'Claudio.Render:Document.Homepage'
       transformations:
         -
           type: 'ChangeNodeType'
           settings:
-            newType: 'Neos.Demo:Homepage'
+            newType: 'Claudio.Render:Homepage'

@@ -1,9 +1,9 @@
 ##
 # "ChapterMenu" element
 #
-prototype(Neos.Demo:Content.ChapterMenu) < prototype(Neos.Neos:ContentComponent) {
+prototype(Claudio.Render:Content.ChapterMenu) < prototype(Neos.Neos:ContentComponent) {
     chapters = Neos.Fusion:Map {
-        items = ${q(documentNode).children('[instanceof Neos.Demo:Document.Chapter]').get()}
+        items = ${q(documentNode).children('[instanceof Claudio.Render:Document.Chapter]').get()}
         itemName = 'chapter'
         itemRenderer = Neos.Fusion:DataStructure {
             @context.chapterImage =  ${q(chapter).property('chapterImage')}

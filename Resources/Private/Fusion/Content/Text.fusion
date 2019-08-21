@@ -1,7 +1,7 @@
 ##
 # "Text" element
 #
-prototype(Neos.Demo:Content.Text) < prototype(Neos.Neos:ContentComponent) {
+prototype(Claudio.Render:Content.Text) < prototype(Neos.Neos:ContentComponent) {
     text = Neos.Neos:Editable {
         property = 'text'
     }

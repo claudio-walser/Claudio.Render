@@ -1,8 +1,8 @@
 <?php
-namespace Neos\Demo\Controller;
+namespace Claudio\Render\Controller;
 
 /*
- * This file is part of the Neos.Demo package.
+ * This file is part of the Claudio.Render package.
  *
  * (c) Contributors of the Neos Project - www.neos.io
  *

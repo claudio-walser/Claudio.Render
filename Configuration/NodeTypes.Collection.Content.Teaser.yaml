@@ -1,12 +1,12 @@
 ##
 # The teaser collection that allows only specific contents
 #
-'Neos.Demo:Collection.Content.Teaser':
+'Claudio.Render:Collection.Content.Teaser':
   superTypes:
     Neos.Neos:ContentCollection: true
   constraints:
     nodeTypes:
       '*': false
-      'Neos.Demo:Content.Headline': true
-      'Neos.Demo:Content.Text': true
-      'Neos.Demo:Content.Image': true
+      'Claudio.Render:Content.Headline': true
+      'Claudio.Render:Content.Text': true
+      'Claudio.Render:Content.Image': true

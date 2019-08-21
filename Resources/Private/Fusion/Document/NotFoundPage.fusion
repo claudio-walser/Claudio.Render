@@ -1,7 +1,7 @@
 /**
- * NotFoundPage rendering for the Neos.Demo website
+ * NotFoundPage rendering for the Claudio.Render website
  */
-prototype(Neos.Demo:Document.NotFoundPage) < prototype(Neos.Demo:Document.Page) {
+prototype(Claudio.Render:Document.NotFoundPage) < prototype(Claudio.Render:Document.Page) {
 
     #
     # The page that is rendered here should always return the 404 status

@@ -1,19 +1,19 @@
 /**
- * Default page-rendering for the Neos.Demo website
+ * Default page-rendering for the Claudio.Render website
  */
-prototype(Neos.Demo:Document.Page) < prototype(Neos.Fusion:Component) {
-    mainMenu = Neos.Demo:Document.Fragment.Menu.Main
-    secondaryMenu = Neos.Demo:Document.Fragment.Menu.Secondary
-    metaMenu = Neos.Demo:Document.Fragment.Menu.Meta
-    breadcrumbMenu = Neos.Demo:Document.Fragment.Menu.Breadcrumb
-    languageMenu = Neos.Demo:Document.Fragment.Menu.Language
+prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
+    mainMenu = Claudio.Render:Document.Fragment.Menu.Main
+    secondaryMenu = Claudio.Render:Document.Fragment.Menu.Secondary
+    metaMenu = Claudio.Render:Document.Fragment.Menu.Meta
+    breadcrumbMenu = Claudio.Render:Document.Fragment.Menu.Breadcrumb
+    languageMenu = Claudio.Render:Document.Fragment.Menu.Language
 
-    mainContent = Neos.Demo:Document.Fragment.Content.Main
-    footerContent = Neos.Demo:Document.Fragment.Content.Footer
+    mainContent = Claudio.Render:Document.Fragment.Content.Main
+    footerContent = Claudio.Render:Document.Fragment.Content.Footer
 
     bodyClass = ${q(node).parents().count() >= 1 && q(node).children('[instanceof Neos.Neos:Document]').filter('[_hiddenInIndex=false]').count() > 0 ? 'has-subpages' : null}
 
-    renderer = Neos.Demo:Document.Base {
+    renderer = Claudio.Render:Document.Base {
         bodyClass = ${props.bodyClass}
         body = afx`
             <div class="top-navigation-wrap">
