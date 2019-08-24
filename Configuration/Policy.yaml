@@ -5,9 +5,9 @@
 privilegeTargets:
   'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
 
-    Neos_Demo_RegistrationAccess:
+    Claudio_Render_RegistrationAccess:
       matcher: method(Claudio\Render\Controller\RegistrationController->(index|newAccount|createAccount|createTemporaryAccount)Action())
-    Neos_Demo_FlickrAccess:
+    Claudio_Render_FlickrAccess:
       matcher: method(Claudio\Render\Controller\FlickrController->(tagStream|userStream)Action())
 
   'Neos\ContentRepository\Security\Authorization\Privilege\Node\ReadNodePrivilege':
@@ -20,10 +20,10 @@ roles:
   'Neos.Flow:Everybody':
     privileges:
       -
-        privilegeTarget: Neos_Demo_RegistrationAccess
+        privilegeTarget: Claudio_Render_RegistrationAccess
         permission: GRANT
       -
-        privilegeTarget: Neos_Demo_FlickrAccess
+        privilegeTarget: Claudio_Render_FlickrAccess
         permission: GRANT
 
 
