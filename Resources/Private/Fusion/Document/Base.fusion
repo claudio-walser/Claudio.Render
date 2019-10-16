@@ -14,7 +14,6 @@ prototype(Claudio.Render:Document.Base) < prototype(Neos.Fusion:Component) {
             metadata = Claudio.Render:Document.Fragment.MetaData
         }
 
-        bodyTag.attributes.class = ${props.bodyClass}
         body = ${props.body}
 
         bodyScripts = Claudio.Render:Document.Fragment.JavaScripts

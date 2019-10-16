@@ -27,6 +27,11 @@ prototype(Claudio.Render:Document.LandingPage) < prototype(Neos.Fusion:Component
 
         body >
         body = afx`
+
+
+
+
+
              <div class="top-navigation-wrap">
                 <div class="container">
                     {props.languageMenu}
@@ -62,6 +67,11 @@ prototype(Claudio.Render:Document.LandingPage) < prototype(Neos.Fusion:Component
                     </div>
                 </div>
             </footer>
+
+
+
+
+
         `
     }
 }
