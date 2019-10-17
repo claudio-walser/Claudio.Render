@@ -3,8 +3,12 @@
  */
 prototype(Claudio.Render:Document.Fragment.JavaScripts) < prototype(Neos.Fusion:Component) {
     renderer = afx`
-        <Claudio.Render:Helper.ScriptTag path="resource://Neos.Twitter.Bootstrap/Public/Libraries/jQuery/jquery-1.10.1.min.js" />
-        <Claudio.Render:Helper.ScriptTag path="resource://Neos.Twitter.Bootstrap/Public/3/js/bootstrap.min.js" />
-        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/main.min.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/jquery.min.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/jquery.easing.1.3.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/bootstrap.min.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/jquery.waypoints.min.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/hoverIntent.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/superfish.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/main.js" />
     `
 }
