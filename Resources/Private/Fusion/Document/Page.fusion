@@ -29,7 +29,12 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                 <div class="container">
                     <div class="nav-header">
                         <a href="#" class="js-Pilzverein Zürcher Oberlandnav-toggle Pilzverein Zürcher Oberlandnav-toggle"><i></i></a>
-                        <h1 id="logo"><a href="index.html"><img src="/images/logo-white.png"></a></h1>
+                        <h1 id="logo"><a href="index.html">
+                        
+
+                        <img src="/_Resources/Static/Packages/Claudio.Render/Images/logo-white.png" />
+
+                        </a></h1>
                         <nav id="menu-wrap" role="navigation">
                             <ul class="sf-menu" id="primary-menu">
                                 <li class="active">
@@ -68,7 +73,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
 
         <div class="hero">
             <div class="overlay"></div>
-            <div class="cover text-center" style="background-image: url(images/bild-2.jpeg);">
+            <div class="cover text-center" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);">
                 <div class="desc animate-box light-black-background">
                     <h2>Nächster Anlass</h2>
                     <span>
@@ -92,7 +97,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
-                                <div class="grid animate-box" style="background-image: url(images/bild-13.jpeg);">
+                                <div class="grid animate-box" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-13.jpeg);">
                                     <a class="image-popup text-center" href="#">
                                         <div class="prod-title">
                                             <h3>Pilze</h3>
@@ -102,7 +107,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                                 </div>
                             </div>
                             <div class="col-md-8 col-sm-8">
-                                <div class="grid animate-box" style="background-image: url(images/bild-6.jpeg);">
+                                <div class="grid animate-box" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-6.jpeg);">
                                     <a class="image-popup text-center" href="#">
                                         <div class="prod-title">
                                             <h3>Vereinsjahr 2016</h3>
@@ -112,7 +117,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                                 </div>
                             </div>
                             <div class="col-md-8 col-sm-8">
-                                <div class="grid animate-box" style="background-image: url(images/work-4.jpg);">
+                                <div class="grid animate-box" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-4.jpeg);">
                                     <a class="image-popup text-center" href="#">
                                         <div class="prod-title">
                                             <h3>Pilze</h3>
@@ -122,7 +127,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <div class="grid animate-box" style="background-image: url(images/work-5.jpg);">
+                                <div class="grid animate-box" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-3.jpeg);">
                                     <a class="image-popup text-center" href="#">
                                         <div class="prod-title">
                                             <h3>Vereinsjahr 2016</h3>
