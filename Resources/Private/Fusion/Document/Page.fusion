@@ -10,7 +10,7 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
 
     mainContent = Claudio.Render:Document.Fragment.Content.Main
     footerContent = Claudio.Render:Document.Fragment.Content.Footer
-
+    teaserContent = Claudio.Render:Document.Fragment.Content.Teaser
     imageUri = Neos.Neos:ImageUri {
         asset = ${q(node).property('image')}
         maximumWidth = 2560
@@ -62,6 +62,8 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                 
 
                 <div class="desc animate-box light-black-background">
+                     {props.teaserContent}
+
                     <h2>Nächster Anlass</h2>
                     <span>
                         <i class="icon-calendar"></i>Do. 21.März, 19 30 Uhr
