@@ -1,8 +1,8 @@
-'Claudio.Render:Content.Columns.Two':
+'Claudio.Render:Content.Columns.TwoTitle':
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: zwei Spalten
+    label: Zwei Spalten mit Titel
     icon: 'icon-columns'
     group: 'structure'
     position: 400

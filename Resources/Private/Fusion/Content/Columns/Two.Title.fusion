@@ -1,0 +1,19 @@
+##
+# "TwoColumn" element
+#
+prototype(Claudio.Render:Content.Columns.Two) < prototype(Neos.Neos:ContentComponent) {
+    column0 = Neos.Neos:ContentCollection {
+        nodePath = 'column0'
+    }
+
+    column1 = Neos.Neos:ContentCollection {
+        nodePath = 'column1'
+    }
+
+    renderer = afx`
+        <div class="row">
+            <div class="col-sm-3">{props.column0}</div>
+            <div class="col-sm-9">{props.column1}</div>
+        </div>
+    `
+}

@@ -11,7 +11,19 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
     mainContent = Claudio.Render:Document.Fragment.Content.Main
     footerContent = Claudio.Render:Document.Fragment.Content.Footer
 
-    bodyClass = ${q(node).parents().count() >= 1 && q(node).children('[instanceof Neos.Neos:Document]').filter('[_hiddenInIndex=false]').count() > 0 ? 'has-subpages' : null}
+    imageUri = Neos.Neos:ImageUri {
+        asset = ${q(node).property('image')}
+        maximumWidth = 2560
+        maximumHeight = 1280
+        @if.image = ${q(node).property('image')}
+    }
+
+    imageTitleText = ${q(node).property('imageTitleText')}
+
+    eventDate = Neos.Neos:Editable {
+        property = 'Date'
+    }
+
 
     renderer = Claudio.Render:Document.Base {
         body = afx`
@@ -28,42 +40,15 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
             <header id="header-section">
                 <div class="container">
                     <div class="nav-header">
-                        <a href="#" class="js-Pilzverein Zürcher Oberlandnav-toggle Pilzverein Zürcher Oberlandnav-toggle"><i></i></a>
-                        <h1 id="logo"><a href="index.html">
-                        
-
-                        <img src="/_Resources/Static/Packages/Claudio.Render/Images/logo-white.png" />
-
-                        </a></h1>
-                        <nav id="menu-wrap" role="navigation">
-                            <ul class="sf-menu" id="primary-menu">
-                                <li class="active">
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Programm 2019</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="sub-ddown">Vereinsinfos</a>
-                                     <ul class="sub-menu">
-                                        <li><a href="#">Vorstand</a></li>
-                                        <li><a href="#">Wie werde ich Mitglied</a></li>
-                                        <li><a href="#">Statuten</a></li>
-                                        <li><a href="#">Vereinsarchiv</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="sub-ddown">Galerie</a>
-                                     <ul class="sub-menu">
-                                        <li><a href="#">Pilze</a></li>
-                                        <li><a href="#">Vereinsjahr 2016</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Kontakt</a></li>
-                                <li><a href="#">Pilzkontrolle</a></li>
-                                <li><a href="#">Mitgliederbereich</a></li>
-                            </ul>
-                        </nav>
+                        <a href="#" class="nav-toggle">
+                            <i></i>
+                        </a>
+                        <h1 id="logo">
+                            <a href="/">
+                                <img src="/_Resources/Static/Packages/Claudio.Render/Images/logo-white.png" />
+                            </a>
+                        </h1>
+                        {props.mainMenu}
                     </div>
                 </div>
             </header>
@@ -73,21 +58,32 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
 
         <div class="hero">
             <div class="overlay"></div>
-            <div class="cover text-center" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);">
+            <div class="cover text-center" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
+                
+
                 <div class="desc animate-box light-black-background">
                     <h2>Nächster Anlass</h2>
                     <span>
-                        <i class="icon-calendar"></i> Do. 21.März, 19 30 Uhr
+                        <i class="icon-calendar"></i>Do. 21.März, 19 30 Uhr
                         <br /><i class="icon-location"></i> Restaurant Krone, Wetzikon
                         <br />Vortrag "Morchelmania made in the USA"
                         von Hugo Ritter (ehem. Vapko Präsident)
                     </span>
                     <span><a class="btn btn-primary" href="#">anmelden</a></span>
                 </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div id="work-section">
+
+            <div class="container">
+                {props.mainContent}
             </div>
 
-        </div>
-        <div id="work-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 animate-box">

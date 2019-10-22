@@ -261,10 +261,10 @@ figure {
   color: #fff !important;
 }
 
-.sf-menu li.active {
+.sf-menu li.current {
   border-bottom: 3px solid #fff;
 }
-.sf-menu li.active a:hover, .sf-menu li.active a:focus {
+.sf-menu li.current a:hover, .sf-menu li.current a:focus {
   color: #fff;
 }
 
@@ -287,7 +287,7 @@ figure {
 .sf-menu li.sfHover a,
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
-.sf-menu li.active a {
+.sf-menu li.current a {
   color: #fff;
 }
 
@@ -387,7 +387,7 @@ figure {
   padding: 2em .75em;
 }
 
-#primary-menu > li > ul li.active > a {
+#primary-menu > li > ul li.current > a {
   color: #79c34f !important;
 }
 #primary-menu > li > .sf-with-ul:after {
@@ -505,7 +505,7 @@ figure {
   }
 }
 
-h3.heading-section {
+h3 {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -513,7 +513,7 @@ h3.heading-section {
   padding-top: 15px;
   font-weight: bold;
 }
-h3.heading-section:before {
+h3:before {
   position: absolute;
   content: '';
   top: 0;
@@ -820,7 +820,7 @@ h3.heading-section:before {
   background: #184bde;
   padding: 5em 0;
 }
-#blog-section h3.heading-section, #start-project-section h3.heading-section {
+#blog-section h3, #start-project-section h3 {
   color: #fff;
 }
 #blog-section p, #start-project-section p {
@@ -1031,7 +1031,7 @@ h3.heading-section:before {
   margin-top: 9px;
   padding-left: 20px;
 }
-#offcanvas-menu ul li.active > a {
+#offcanvas-menu ul li.current > a {
   color: #79c34f;
 }
 
