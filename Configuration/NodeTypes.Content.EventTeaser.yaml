@@ -1,0 +1,33 @@
+'Claudio.Render:Content.EventTeaser':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes.BaseMixins:TextMixin': true
+  ui:
+    label: Event Teaser
+    icon: 'icon-calendar-day'
+    position: 100
+  properties:
+    'title':
+      ui:
+        aloha:
+          'format':
+            'h2': true
+      inline:
+        editorOptions:
+          autoparagraph: false
+          placeholder: Titel
+    'date':
+      inline:
+        editorOptions:
+          autoparagraph: false
+          placeholder: Datum
+    'where':
+      inline:
+        editorOptions:
+          autoparagraph: false
+          placeholder: Wo
+    'who':
+      inline:
+        editorOptions:
+          autoparagraph: false
+          placeholder: Wer

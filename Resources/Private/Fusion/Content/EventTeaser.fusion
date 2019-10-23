@@ -1,0 +1,32 @@
+##
+# "Text" element
+#
+prototype(Claudio.Render:Content.EventTeaser) < prototype(Neos.Neos:ContentComponent) {
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    date = Neos.Neos:Editable {
+        property = 'date'
+    }
+
+    where = Neos.Neos:Editable {
+        property = 'where'
+    }
+
+    who = Neos.Neos:Editable {
+        property = 'who'
+    }
+
+    renderer = afx`
+        {props.title}
+        <span>
+            <i class="icon-calendar"></i> Do. 21.März, 19 30 Uhr
+            <br /><i class="icon-location"></i> {props.where}
+            <br /><i class="icon-user2"></i> {props.who}
+        </span>
+        <span><a class="btn btn-primary" href="#">anmelden</a></span>
+
+
+    `
+}

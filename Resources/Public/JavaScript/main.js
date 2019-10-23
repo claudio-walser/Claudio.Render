@@ -19,7 +19,7 @@
 	// Main Menu Superfish
 	var mainMenu = function() {
 
-		$('#Pilzverein Zürcher Oberlandprimary-menu').superfish({
+		$('#primary-menu').superfish({
 			delay: 0,
 			animation: {
 				opacity: 'show'
@@ -34,7 +34,7 @@
 	// Offcanvas and cloning of the main menu
 	var offcanvas = function() {
 
-		var $clone = $('#Pilzverein Zürcher Oberlandmenu-wrap').clone();
+		var $clone = $('#menu-wrap').clone();
 		$clone.attr({
 			'id' : 'offcanvas-menu'
 		});
@@ -43,17 +43,17 @@
 			'id' : ''
 		});
 
-		$('#Pilzverein Zürcher Oberlandpage').prepend($clone);
+		$('#page').prepend($clone);
 
 		// click the burger
 		$('.js-Pilzverein Zürcher Oberlandnav-toggle').on('click', function(){
 
-			if ( $('body').hasClass('Pilzverein Zürcher Oberlandoffcanvas') ) {
-				$('body').removeClass('Pilzverein Zürcher Oberlandoffcanvas');
+			if ( $('body').hasClass('offcanvas') ) {
+				$('body').removeClass('offcanvas');
 			} else {
-				$('body').addClass('Pilzverein Zürcher Oberlandoffcanvas');
+				$('body').addClass('offcanvas');
 			}
-			// $('body').toggleClass('Pilzverein Zürcher Oberlandoffcanvas');
+			// $('body').toggleClass('offcanvas');
 
 		});
 
@@ -61,8 +61,8 @@
 			var w = $(window);
 
 			if ( w.width() > 769 ) {
-				if ( $('body').hasClass('Pilzverein Zürcher Oberlandoffcanvas') ) {
-					$('body').removeClass('Pilzverein Zürcher Oberlandoffcanvas');
+				if ( $('body').hasClass('offcanvas') ) {
+					$('body').removeClass('offcanvas');
 				}
 			}
 
@@ -73,11 +73,11 @@
 	// Superfish Sub Menu Click ( Mobiles/Tablets )
 	var mobileClickSubMenus = function() {
 
-		$('body').on('click', '.Pilzverein Zürcher Oberlandsub-ddown', function(event) {
+		$('body').on('click', '.sub-ddown', function(event) {
 			event.preventDefault();
 			var $this = $(this),
 				li = $this.closest('li');
-			li.find('> .Pilzverein Zürcher Oberlandsub-menu').slideToggle(200);
+			li.find('> .sub-menu').slideToggle(200);
 		});
 
 	};

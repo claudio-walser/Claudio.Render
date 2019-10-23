@@ -59,22 +59,10 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
         <div class="hero">
             <div class="overlay"></div>
             <div class="cover text-center" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
-                
-
                 <div class="desc animate-box light-black-background">
-                     {props.teaserContent}
-
-                    <h2>Nächster Anlass</h2>
-                    <span>
-                        <i class="icon-calendar"></i>Do. 21.März, 19 30 Uhr
-                        <br /><i class="icon-location"></i> Restaurant Krone, Wetzikon
-                        <br />Vortrag "Morchelmania made in the USA"
-                        von Hugo Ritter (ehem. Vapko Präsident)
-                    </span>
-                    <span><a class="btn btn-primary" href="#">anmelden</a></span>
+                
+                {props.teaserContent}
                 </div>
-
-
             </div>
         </div>
 
