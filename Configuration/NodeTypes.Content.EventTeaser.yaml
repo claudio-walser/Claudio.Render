@@ -6,28 +6,41 @@
     label: Event Teaser
     icon: 'icon-calendar-day'
     position: 100
+    inspector:
+      groups:
+        'link':
+          label: Link
+          icon: 'icon-link'
+          position: 50
+
   properties:
     'title':
-      ui:
-        aloha:
-          'format':
-            'h2': true
-      inline:
-        editorOptions:
-          autoparagraph: false
-          placeholder: Titel
+      type: string
+      defaultValue: 'Welcher Anlass'
     'date':
-      inline:
-        editorOptions:
-          autoparagraph: false
-          placeholder: Datum
+      type: string
+      defaultValue: 'Wann'
     'where':
-      inline:
-        editorOptions:
-          autoparagraph: false
-          placeholder: Wo
+      type: string
+      defaultValue: 'Wo'
     'who':
-      inline:
-        editorOptions:
-          autoparagraph: false
-          placeholder: Wer
+      type: string
+      defaultValue: 'Wer'
+    'link':
+      type: string
+      defaultValue: ''
+      ui:
+        label: Anmeldelink
+        reloadIfChanged: true
+        inspector:
+          group: 'link'
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+        help:
+          message: |
+            The video identifier is visible in the URL to a youtube video
+
+            Eg. in the URL
+
+            `https://youtu.be/G6D1YI-41ao`
+
+            the video id is `G6D1YI-41ao`.

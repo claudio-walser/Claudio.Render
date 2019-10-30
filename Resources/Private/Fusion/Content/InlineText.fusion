@@ -1,0 +1,14 @@
+##
+# "Text" element
+#
+prototype(Claudio.Render:Content.InlineText) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`
+        <div class="inline">
+            {props.text}
+        </div>
+    `
+}
