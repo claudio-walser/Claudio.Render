@@ -29,45 +29,55 @@ prototype(Claudio.Render:Document.LandingPage) < prototype(Neos.Fusion:Component
         body = afx`
 
 
-
-
-
-             <div class="top-navigation-wrap">
+        <div id="wrapper">
+        <div id="page">
+        <div id="header">
+            <div class="top">
                 <div class="container">
-                    {props.languageMenu}
-                    {props.mainMenu}
-                    {props.secondaryMenu}
+                    <span> <a href="#"><i>@</i> info@pilzverein-zo.ch</a></span>
                 </div>
             </div>
-
-            <div class={props.imageUri ? 'main-header image' : 'main-header'}
-                style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : null}
-                title={props.imageTitleText ? props.imageTitleText : null}
-            >
+            <header id="header-section">
                 <div class="container">
-                    {props.teaserContent}
+                    <div class="nav-header">
+                        <a href="#" class="nav-toggle">
+                            <i></i>
+                        </a>
+                        <h1 id="logo">
+                            <a href="/">
+                                <img src="/_Resources/Static/Packages/Claudio.Render/Images/logo-white.png" />
+                            </a>
+                        </h1>
+                        {props.mainMenu}
+                    </div>
+                </div>
+            </header>
+            
+        </div>
+        
+
+        <div class="hero">
+            <div class="overlay"></div>
+            <div class="cover text-center" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
+                <div class="desc animate-box light-black-background">
+                
+                {props.teaserContent}
                 </div>
             </div>
+        </div>
+
+
+
+        <div id="work-section">
 
             <div class="container">
                 {props.mainContent}
             </div>
+        </div>
 
-            <footer role="navigation" class="navbar navbar-default">
-                <div class="panel panel-default">
-                    <div class="panel-body clearfix">
-                        <div class="container">
-                            {props.metaMenu}
-                        </div>
-                    </div>
-                    <div class="panel-footer">
-                        <div class="container">
-                            {props.footerContent}
-                        </div>
-                    </div>
-                </div>
-            </footer>
+    </div>
 
+    </div>
 
 
 

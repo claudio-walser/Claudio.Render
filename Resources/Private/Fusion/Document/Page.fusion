@@ -31,10 +31,12 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
 
         <div id="wrapper">
         <div id="page">
+
+
         <div id="header">
             <div class="top">
                 <div class="container">
-                    <span> <a href="#"><i>@</i> info@pilzverein-zo.ch</a></span>
+                    <span> <a href="mailto:info@pilzverein-zo.ch"><i>@</i> info@pilzverein-zo.ch</a></span>
                 </div>
             </div>
             <header id="header-section">
@@ -48,24 +50,23 @@ prototype(Claudio.Render:Document.Page) < prototype(Neos.Fusion:Component) {
                                 <img src="/_Resources/Static/Packages/Claudio.Render/Images/logo-white.png" />
                             </a>
                         </h1>
+
                         {props.mainMenu}
+
                     </div>
                 </div>
             </header>
             
         </div>
-        
 
-        <div class="hero">
+
+        <div class="hero small-hero">
             <div class="overlay"></div>
-            <div class="cover text-center" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
-                <div class="desc animate-box light-black-background">
+            <div class="cover small-cover text-center" style="background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/about-image.jpg);">
                 
-                {props.teaserContent}
-                </div>
             </div>
-        </div>
 
+        </div>
 
 
         <div id="work-section">
