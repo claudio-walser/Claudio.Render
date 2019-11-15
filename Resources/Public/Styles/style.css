@@ -1257,3 +1257,9 @@ h3:before {
   display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.neos-alignment-left {
+  float: left;
+  margin-right: 15px;
+}
