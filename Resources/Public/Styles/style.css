@@ -1263,3 +1263,11 @@ h3:before {
   float: left;
   margin-right: 15px;
 }
+
+.form-navigation ul {
+  list-style-type: none;
+}
+
+.row {
+  margin-bottom: 25px;
+}
