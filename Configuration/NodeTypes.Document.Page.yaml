@@ -9,12 +9,6 @@
     icon: 'file'
     help:
       message: 'A Page'
-    inspector:
-      groups:
-        image:
-          label: i18n
-          position: 200
-          icon: 'icon-image'
   constraints:
     nodeTypes:
       'Claudio.Render:Document.Homepage': false
@@ -24,26 +18,3 @@
       type: 'Claudio.Render:Collection.Content.Main'
     'teaser':
       type: 'Claudio.Render:Collection.Content.Teaser'
-  properties:
-    'image':
-      type: 'Neos\Media\Domain\Model\ImageInterface'
-      ui:
-        label: i18n
-        reloadIfChanged: true
-        inspector:
-          group: 'image'
-          position: 50
-          editorOptions:
-            crop:
-              aspectRatio:
-                locked:
-                  width: 2
-                  height: 1
-    'imageTitleText':
-      type: string
-      ui:
-        label: i18n
-        reloadIfChanged: true
-        inspector:
-          group: 'image'
-          position: 100
