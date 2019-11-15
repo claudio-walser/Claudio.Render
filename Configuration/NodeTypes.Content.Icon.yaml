@@ -1,0 +1,37 @@
+'Claudio.Render:Content.Icon':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: Icon
+    icon: 'icon-image'
+    position: 400
+    inspector:
+      groups:
+        'icon':
+          label: Icon
+          icon: 'icon-image'
+          position: 50
+
+  properties:
+    icon:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'Icon auswählen'
+        inspector:
+          group: 'icon'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              icon-calendar:
+                label: 'Kalender'
+              icon-trophy:
+                label: 'Trophäe'
+              icon-tools:
+                label: 'Werkzeuge'
+              icon-wallet:
+                label: 'Brieftasche'
+              icon-search:
+                label: 'Suche'
+              icon-envelope:
+                label: 'Umschlag'

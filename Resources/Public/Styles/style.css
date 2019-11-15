@@ -1271,3 +1271,7 @@ h3:before {
 .row {
   margin-bottom: 25px;
 }
+
+span.icon i {
+  font-size: 50px;
+}
