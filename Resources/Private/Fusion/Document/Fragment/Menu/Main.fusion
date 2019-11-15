@@ -11,6 +11,17 @@ prototype(Claudio.Render:Document.Fragment.Menu.Main) < prototype(Neos.Fusion:Co
                     <Neos.Fusion:Loop items={props.menuItems}>
                         <li class={item.state}>
                             <Neos.Neos:NodeLink node={item.node}>{item.label}</Neos.Neos:NodeLink>
+
+
+                                <ul @if.has={item.subItems} class="sub-menu">
+                                    <Neos.Fusion:Loop items={item.subItems} itemName="item">
+                                        <li class={item.state}>
+                                            <Neos.Neos:NodeLink node={item.node}>{item.label}</Neos.Neos:NodeLink>
+                                        </li>
+                                    </Neos.Fusion:Loop>
+                                </ul>
+
+
                         </li>
                     </Neos.Fusion:Loop>
             </ul>
