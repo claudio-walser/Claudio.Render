@@ -42,7 +42,7 @@ p {
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
   color: #5a5a5a;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -167,21 +167,23 @@ figure {
     padding-right: 15px;
   }
 }
-.cover .desc h2 {
+.cover .desc h2, .cover .desc h2 * {
   color: #fff;
   text-transform: uppercase;
-  font-size: 80px;
-  font-weight: 300;
-  margin-bottom: 10px;
+  font-size: 80px !important;
+  font-weight: 300 !important;
+  margin-bottom: 10px !important;
 }
-@media screen and (max-width: 768px) {
-  .cover .desc h2 {
-    font-size: 40px;
+.cover .desc a.btn-primary {
+  margin: 20px;
+}
+@media screen and (max-width: 950px) {
+  .cover .desc h2, .cover .desc h2 * {
+    font-size: 40px !important;
   }
 }
 .cover .desc span {
   display: block;
-  margin-bottom: 30px;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -1238,8 +1240,6 @@ h3:before {
   background: url(/_Resources/Static/Packages/Claudio.Render/Images/hourglass.svg) center no-repeat #222222;
 }
 
-
-
 .light-black-background {
   background-image: url("/_Resources/Static/Packages/Claudio.Render/Images/light-black-bg.png");
 }
@@ -1251,5 +1251,9 @@ h3:before {
 
 .clear {
   clear: both;
+}
+
+.inline {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

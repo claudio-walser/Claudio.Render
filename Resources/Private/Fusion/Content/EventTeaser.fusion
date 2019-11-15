@@ -18,14 +18,18 @@ prototype(Claudio.Render:Content.EventTeaser) < prototype(Neos.Neos:ContentCompo
         property = 'who'
     }
 
+    link = Neos.Neos:Editable {
+        property = 'link'
+    }
+
     renderer = afx`
-        {props.title}
+        <h2>{props.title}</h2>
         <span>
-            <i class="icon-calendar"></i> Do. 21.März, 19 30 Uhr
-            <br /><i class="icon-location"></i> {props.where}
-            <br /><i class="icon-user2"></i> {props.who}
+            <i class="icon-calendar"></i> <div class="inline">{props.date}</div>
+            <br /><i class="icon-location"></i> <div class="inline">{props.where}</div>
+            <br /><i class="icon-user2"></i> <div class="inline">{props.who}</div>
         </span>
-        <span><a class="btn btn-primary" href="#">anmelden</a></span>
+        <span><a class="btn btn-primary" href={props.link}>anmelden</a></span>
 
 
     `
