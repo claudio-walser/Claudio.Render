@@ -1,13 +1,13 @@
 type: 'Neos.Form:Form'
 identifier: contact-form
-label: 'Contact form'
+label: 'Kontakt Formular'
 renderingOptions:
-  submitButtonLabel: 'Send'
+  submitButtonLabel: 'senden'
 renderables:
   -
     type: 'Neos.Form:Page'
     identifier: page-one
-    label: 'Contact'
+    label: 'Kontakt'
     renderables:
       -
         type: 'Neos.Form:SingleLineText'
@@ -21,21 +21,21 @@ renderables:
       -
         type: 'Neos.Form:SingleLineText'
         identifier: email
-        label: 'Email'
+        label: 'E-Mail'
         validators:
           - identifier: 'Neos.Flow:NotEmpty'
           - identifier: 'Neos.Flow:EmailAddress'
         properties:
-          placeholder: 'Email'
+          placeholder: 'E-Mail Adresse'
         defaultValue: ''
       -
         type: 'Neos.Form:MultiLineText'
         identifier: message
-        label: 'Message'
+        label: 'Nachricht'
         validators:
           - identifier: 'Neos.Flow:NotEmpty'
         properties:
-          placeholder: 'Your Message'
+          placeholder: 'Ihre Nachricht'
         defaultValue: ''
 finishers:
 # Uncomment the following lines and install the neos/swiftmailer package to send mails
@@ -54,5 +54,5 @@ finishers:
     identifier: 'Neos.Form:Confirmation'
     options:
       message: >
-        <h3>Thank you for your feedback!</h3>
-        <p>Your email would have been sent. It's easy to create custom forms with the Neos.Form package.</p>
+        <h3>Vielen Dank für Ihre Nachricht!</h3>
+        <p>Ihre E-Mail wurde versendet, Sie werden bald von uns hören.</p>
