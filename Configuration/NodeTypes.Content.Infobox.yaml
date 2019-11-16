@@ -1,0 +1,10 @@
+'Claudio.Render:Content.Infobox':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes.BaseMixins:TextMixin': true
+    'Claudio.Render:Constraint.Content.Carousel': true
+    'Claudio.Render:Constraint.Content.Column': true
+  ui:
+    label: Info Box
+    icon: 'icon-file-text'
+    position: 210

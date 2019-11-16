@@ -1,0 +1,14 @@
+##
+# "Text" element
+#
+prototype(Claudio.Render:Content.Infobox) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`
+        <div class="alert alert-info">
+            {props.text}
+        </div>
+    `
+}

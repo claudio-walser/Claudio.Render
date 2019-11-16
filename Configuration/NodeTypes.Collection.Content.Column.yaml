@@ -8,6 +8,7 @@
     nodeTypes:
       '*': false
       'Claudio.Render:Content.Icon': true
+      'Claudio.Render:Content.Infobox': true
       'Claudio.Render:Constraint.Content.Column': true
 
 ##
