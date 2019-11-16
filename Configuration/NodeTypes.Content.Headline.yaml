@@ -2,7 +2,6 @@
   superTypes:
     'Neos.Neos:Content': true
     'Neos.NodeTypes.BaseMixins:TitleMixin': true
-    'Claudio.Render:Constraint.Content.Carousel': true
     'Claudio.Render:Constraint.Content.Column': true
   ui:
     label: i18n

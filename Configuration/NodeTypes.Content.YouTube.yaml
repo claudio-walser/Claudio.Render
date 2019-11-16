@@ -4,7 +4,6 @@
 'Claudio.Render:Content.YouTube':
   superTypes:
     'Neos.Neos:Content': true
-    'Claudio.Render:Constraint.Content.Carousel': true
     'Claudio.Render:Constraint.Content.Column': true
   ui:
     label: YouTube
