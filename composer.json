@@ -1,16 +1,18 @@
 {
     "name": "claudio/render",
     "type": "neos-site",
-    "description": "Site package for the Neos Demo Site",
+    "description": "Site package for pilzverein-zo.ch",
     "license": [
         "GPL-3.0-or-later"
     ],
     "require": {
-        "neos/neos": "^4.3 || dev-master",
+        "neos/neos": "^5.0",
         "neos/nodetypes": "*",
         "neos/fusion-afx": "*",
-        "neos/seo": ">=2.0.7",
-        "flowpack/neos-frontendlogin": "^3.0.3"
+        "neos/seo": ">=3.0.5",
+        "flowpack/neos-frontendlogin": "^4.0.0",
+        "dl/gallery": "~4.0.0"
+        
     },
     "autoload": {
         "psr-4": {
