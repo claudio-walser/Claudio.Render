@@ -10,5 +10,6 @@ prototype(Claudio.Render:Document.Fragment.JavaScripts) < prototype(Neos.Fusion:
         <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/hoverIntent.js" />
         <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/superfish.js" />
         <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/main.js" />
+        <Claudio.Render:Helper.ScriptTag path="resource://DL.Gallery/Public/JavaScript/JustifiedGallery.min.js" />
     `
 }
