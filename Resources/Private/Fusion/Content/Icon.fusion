@@ -2,9 +2,7 @@
 # "Text" element
 #
 prototype(Claudio.Render:Content.Icon) < prototype(Neos.Neos:ContentComponent) {
-    icon = Neos.Neos:Editable {
-        property = 'icon'
-    }
+    icon = ${q(node).property('icon')}
 
     renderer = afx`
         <span class="icon"><i class={props.icon ? props.icon : 'icon-calendar'}></i></span>

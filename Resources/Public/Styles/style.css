@@ -1016,6 +1016,7 @@ h3:before {
   right: -240px;
   width: 240px;
   padding: 20px;
+  min-height: 690px !important;
 }
 #offcanvas-menu ul {
   padding: 0;

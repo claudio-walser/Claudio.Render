@@ -46,7 +46,7 @@
 		$('#page').prepend($clone);
 
 		// click the burger
-		$('.js-Pilzverein Zürcher Oberlandnav-toggle').on('click', function(){
+		$('.nav-toggle').on('click', function(){
 
 			if ( $('body').hasClass('offcanvas') ) {
 				$('body').removeClass('offcanvas');
