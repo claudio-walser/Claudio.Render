@@ -11,7 +11,7 @@
         "neos/fusion-afx": "*",
         "neos/seo": ">=3.0.5",
         "flowpack/neos-frontendlogin": "^4.0.0",
-        "dl/gallery": "~4.0.0"
+        "dl/gallery": "dev-task/make-page-adjustments-more-generic"
         
     },
     "autoload": {
