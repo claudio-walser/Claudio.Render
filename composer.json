@@ -14,6 +14,14 @@
         "dl/gallery": "dev-task/make-page-adjustments-more-generic"
         
     },
+    
+    "repositories": {
+        "dl/gallery": {
+            "type": "vcs",
+            "url": "https://github.com/daniellienert/DL.Gallery.git"
+        }
+    },
+    
     "autoload": {
         "psr-4": {
             "Claudio\\Render\\": "Classes"
