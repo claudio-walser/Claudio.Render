@@ -5,13 +5,6 @@
     "license": [
         "GPL-3.0-or-later"
     ],
-
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/daniellienert/DL.Gallery.git"
-        }
-    ],
    
     "require": {
         "neos/neos": "^5.0",
@@ -19,7 +12,7 @@
         "neos/fusion-afx": "*",
         "neos/seo": ">=3.0.5",
         "flowpack/neos-frontendlogin": "^4.0.0",
-        "dl/gallery": "dev-task/make-page-adjustments-more-generic"
+        "dl/gallery": "^4.1.0"
         
     },
     
