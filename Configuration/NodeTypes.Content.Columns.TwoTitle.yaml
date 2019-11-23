@@ -2,7 +2,7 @@
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: Zwei Spalten mit Titel
+    label: zwei Spalten - links schmal
     icon: 'icon-columns'
     group: 'structure'
     position: 400
