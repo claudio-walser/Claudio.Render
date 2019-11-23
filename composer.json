@@ -8,7 +8,7 @@
    
     "require": {
         "neos/neos": "^5.0",
-        "neos/form": "^5.0.4",
+        "neos/form": "*",
         "neos/media": "^5.0.4",
         "neos/content-repository": "^5.0.4",
         "neos/neos": "^5.0.4",
