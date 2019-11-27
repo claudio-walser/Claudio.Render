@@ -15,8 +15,8 @@ body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.5;
   background: #fff;
-  color: #848484;
-  font-weight: 300;
+  color: #000000;
+  font-weight: 450;
   overflow-x: hidden;
 }
 body.offcanvas {
