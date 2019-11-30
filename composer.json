@@ -13,6 +13,7 @@
         "neos/content-repository": "^5.0.4",
         "neos/neos": "^5.0.4",
         "neos/fusion": "^5.0.4",
+        "neos/form-builder": "^2.0.0",
 
         "neos/nodetypes-basemixins": "^5.0.4",
         "neos/nodetypes-assetlist": "^5.0.4",
