@@ -34,9 +34,9 @@ a:hover {
   color: #79c34f !important;
 }
 
-p {
+p, ul {
   margin-bottom: 1.5em;
-  font-size: 20px;
+  font-size: 20px !important;
   color: #5a5a5a;
   font-weight: 380;
   font-family: "Source Sans Pro", Arial, sans-serif;
