@@ -1143,7 +1143,7 @@ h3:before {
   display: none;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .nav-toggle {
     display: block;
     top: 0px;
