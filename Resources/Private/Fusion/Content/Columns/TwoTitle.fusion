@@ -12,8 +12,8 @@ prototype(Claudio.Render:Content.Columns.TwoTitle) < prototype(Neos.Neos:Content
 
     renderer = afx`
         <div class="row">
-            <div class="col-sm-3 animate-box">{props.column0}</div>
-            <div class="col-sm-9 animate-box">{props.column1}</div>
+            <div class="col-sm-3">{props.column0}</div>
+            <div class="col-sm-9">{props.column1}</div>
         </div>
     `
 }
