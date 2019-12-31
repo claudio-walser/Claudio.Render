@@ -7,24 +7,25 @@
     ],
    
     "require": {
-        "neos/neos": "5.0.4",
+        "neos/neos": "^5.0",
         "neos/form": "*",
-        "neos/media": "5.0.4",
-        "neos/content-repository": "5.0.4",
-        "neos/neos": "5.0.4",
-        "neos/fusion": "5.0.4",
+        "neos/media": "^5.0.4",
+        "neos/content-repository": "^5.0.4",
+        "neos/neos": "^5.0.4",
+        "neos/fusion": "^5.0.4",
         "neos/form-builder": "^2.0.0",
         "neos/swiftmailer": "^7.1.0",
 
-        "neos/nodetypes-basemixins": "5.0.4",
-        "neos/nodetypes-assetlist": "5.0.4",
-        "neos/nodetypes-contentreferences": "5.0.4",
-        "neos/nodetypes-html": "5.0.4",
-        "neos/nodetypes-navigation": "5.0.4",
-        "neos/nodetypes-form": "5.0.4",
+        "neos/nodetypes-basemixins": "^5.0.4",
+        "neos/nodetypes-assetlist": "^5.0.4",
+        "neos/nodetypes-contentreferences": "^5.0.4",
+        "neos/nodetypes-html": "^5.0.4",
+        "neos/nodetypes-navigation": "^5.0.4",
+        "neos/nodetypes-form": "^5.0.4",
 
         "neos/fusion-afx": "*",
         "neos/seo": ">=3.0.5",
+        "flowpack/neos-frontendlogin": "^4.0.0",
         "dl/gallery": "^4.1.0"
         
     },
