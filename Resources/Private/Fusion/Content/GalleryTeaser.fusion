@@ -9,12 +9,17 @@ prototype(Claudio.Render:Content.GalleryTeaser) < prototype(Neos.Neos:ContentCom
     link = Neos.Neos:Editable {
         property = 'link'
     }
-
+    imageUri = Neos.Neos:ImageUri {
+        asset = ${q(node).property('image')}
+        maximumWidth = 2560
+        maximumHeight = 1280
+        @if.image = ${q(node).property('image')}
+    }
     hasLink = ${!node.context.inBackend}
 
     renderer = afx`
     <div class="col-md-4 col-sm-4">
-        <div class="grid animate-box" style={props.image ? 'background-image: url(' + props.image + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
+        <div class="grid animate-box" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
             <a class="image-popup text-center" href={props.link}>
                 <div class="prod-title">
                     <h3>{props.title}</h3>
