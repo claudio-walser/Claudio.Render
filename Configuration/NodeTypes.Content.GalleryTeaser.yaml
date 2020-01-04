@@ -2,7 +2,6 @@
   superTypes:
     'Neos.Neos:Content': true
     'Neos.NodeTypes.BaseMixins:TextMixin': true
-    'Neos.NodeTypes.BaseMixins:ImageMixin': true
   ui:
     label: Galerie Teaser
     icon: 'icon-picture'
@@ -15,9 +14,27 @@
           position: 50
 
   properties:
+    'image':
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'link'
+          position: 50
+          editorOptions:
+            crop:
+              aspectRatio:
+                locked:
+                  width: 2
+                  height: 1
     'title':
       type: string
       defaultValue: 'Teaser Titel'
+      ui:
+        label: Titel
+        inspector:
+          group: 'link'
     'link':
       type: string
       defaultValue: ''

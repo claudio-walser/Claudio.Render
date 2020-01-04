@@ -10,11 +10,13 @@ prototype(Claudio.Render:Content.GalleryTeaser) < prototype(Neos.Neos:ContentCom
         property = 'link'
     }
 
+    hasLink = ${!node.context.inBackend}
+
     renderer = afx`
 <Claudio.Render:Content.Fragment.Image.Figure class="typo3-neos-alignment-left neos-alignment-left"/>
     <div class="col-md-4 col-sm-4">
-        <div class="grid animate-box" style="background-image: url({props.src});">
-            <a class="image-popup text-center" href={props.link}>
+        <div class="grid animate-box" style={props.imageUri ? 'background-image: url(' + props.imageUri + ');' : 'background-image: url(/_Resources/Static/Packages/Claudio.Render/Images/bild-2.jpeg);'}>
+            <a @if.has={props.hasLink && props.link} class="image-popup text-center" href={props.link}>
                 <div class="prod-title">
                     <h3>{props.title}</h3>
                     <span>zur Galerie</span>
