@@ -1,0 +1,32 @@
+'Claudio.Render:Content.GalleryTeaser':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes.BaseMixins:TextMixin': true
+    'Neos.NodeTypes.BaseMixins:ImageMixin': true
+  ui:
+    label: Galerie Teaser
+    icon: 'icon-picture'
+    position: 100
+    inspector:
+      groups:
+        'link':
+          label: Link
+          icon: 'icon-link'
+          position: 50
+
+  properties:
+    'title':
+      type: string
+      defaultValue: 'Teaser Titel'
+    'link':
+      type: string
+      defaultValue: ''
+      ui:
+        label: Link zur Galerie
+        reloadIfChanged: true
+        inspector:
+          group: 'link'
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+        help:
+          message: |
+            Das ist der Link der zur Galerie führt.
