@@ -1,5 +1,20 @@
-.form-navigation {
-	li {
-		list-style-type: none;
-	}
+form {
+    li {
+        list-style-type: none;
+    }
+
+    legend {
+        display: initial;
+        padding: 0;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        border: 0;
+    }
+
+    label {
+        font-weight: normal;
+    }
+
 }
