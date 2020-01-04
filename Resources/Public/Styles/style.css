@@ -78,7 +78,7 @@ figure {
   }
 }
 #header .top a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7) !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -252,7 +252,7 @@ figure {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  color: #fff !important;
   padding: .75em 1em;
   font-weight: normal;
   border-left: none;
