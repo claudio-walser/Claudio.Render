@@ -24,7 +24,7 @@ body.offcanvas {
 }
 
 a {
-  color: #79c34f;
+  color: #79c34f !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
