@@ -1029,10 +1029,10 @@ h3:before {
 }
 #offcanvas-menu ul li a {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4) !important;
 }
 #offcanvas-menu ul li a:hover {
-  color: #79c34f;
+  color: #79c34f !important;
 }
 #offcanvas-menu ul li > .sub-menu {
   margin-top: 9px;
