@@ -189,7 +189,7 @@ figure {
   letter-spacing: 1px;
 }
 .cover .desc span a {
-  color: #fff;
+  color: #fff !important;
 }
 .cover .desc span a:hover, .cover .desc span a:focus {
   color: #fff !important;
