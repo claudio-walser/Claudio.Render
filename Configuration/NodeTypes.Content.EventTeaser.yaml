@@ -30,17 +30,11 @@
       type: string
       defaultValue: ''
       ui:
-        label: Anmeldelink
+        label: Link zur Anmeldung
         reloadIfChanged: true
         inspector:
           group: 'link'
           editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
         help:
           message: |
-            The video identifier is visible in the URL to a youtube video
-
-            Eg. in the URL
-
-            `https://youtu.be/G6D1YI-41ao`
-
-            the video id is `G6D1YI-41ao`.
+            Das ist der Link der zur Anmeldung führt.
