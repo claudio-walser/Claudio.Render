@@ -15,3 +15,7 @@ form legend {
 form label {
     font-weight: normal;
 }
+
+.form-control {
+	height: auto;
+}
