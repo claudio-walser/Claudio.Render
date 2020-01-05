@@ -9,6 +9,7 @@ prototype(Claudio.Render:Document.Fragment.StyleSheets) < prototype(Neos.Fusion:
         <Claudio.Render:Helper.StyleTag path="resource://Claudio.Render/Public/Styles/bootstrap.css" />
         <Claudio.Render:Helper.StyleTag path="resource://Claudio.Render/Public/Styles/superfish.css" />
         <Claudio.Render:Helper.StyleTag path="resource://Claudio.Render/Public/Styles/style.css" />
+        <Claudio.Render:Helper.StyleTag path="resource://Claudio.Render/Public/Styles/form.css" />
         <Claudio.Render:Helper.ScriptTag path="resource://Claudio.Render/Public/JavaScript/modernizr-2.6.2.min.js" />
         <Claudio.Render:Helper.ScriptTag path="resource://DL.Gallery/Public/Styles/JustifiedGallery.css" />
     `
