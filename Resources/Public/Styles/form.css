@@ -1,0 +1,17 @@
+form li {
+    list-style-type: none;
+}
+
+form legend {
+    display: initial;
+    padding: 0;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 0;
+}
+
+form label {
+    font-weight: normal;
+}
