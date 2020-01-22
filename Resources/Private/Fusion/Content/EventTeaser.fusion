@@ -29,7 +29,7 @@ prototype(Claudio.Render:Content.EventTeaser) < prototype(Neos.Neos:ContentCompo
             <br /><i class="icon-location"></i> <div class="inline">{props.where}</div>
             <br /><i class="icon-user2"></i> <div class="inline">{props.who}</div>
         </span>
-        <span><a class="btn btn-primary" href={props.link}>anmelden</a></span>
+        <span><a @if.has={props.link} class="btn btn-primary" href={props.link}>anmelden</a></span>
 
 
     `
