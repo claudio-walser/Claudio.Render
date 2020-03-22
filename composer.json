@@ -14,6 +14,7 @@
         "neos/neos": "^5.0.4",
         "neos/fusion": "^5.0.4",
         "neos/form-builder": "^2.0.0",
+        "dl/honeypotformfield": "^2.0.1",
         "neos/swiftmailer": "^7.1.0",
 
         "neos/nodetypes-basemixins": "^5.0.4",
