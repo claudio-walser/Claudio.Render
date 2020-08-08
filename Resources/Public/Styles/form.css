@@ -20,6 +20,6 @@ form label {
 	height: auto;
 }
 
-form .error {
+form .input .error {
     border: 1px solid red;	
 }
