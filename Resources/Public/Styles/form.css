@@ -19,3 +19,7 @@ form label {
 .form-control {
 	height: auto;
 }
+
+form .error {
+    border 1px solid red;	
+}
