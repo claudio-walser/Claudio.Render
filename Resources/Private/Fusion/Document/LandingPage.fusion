@@ -34,7 +34,7 @@ prototype(Claudio.Render:Document.LandingPage) < prototype(Neos.Fusion:Component
         <div id="header">
             <div class="top">
                 <div class="container">
-                    <span> <a href="mailto:info@pilzverein-zo.ch">info@pilzverein-zo.ch</a></span>
+                    <span>info(at)pilzverein-zo.ch</span>
                 </div>
             </div>
             <header id="header-section">
