@@ -1,8 +1,8 @@
 ;(function () {
 	
 	'use strict';
-
-
+	
+	$('form').attr('action', $('form').attr('action').replace('http://', 'https://'));
 
 	// iPad and iPod detection	
 	var isiPad = function(){
